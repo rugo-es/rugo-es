@@ -1,0 +1,49 @@
+---
+import Badge from "./Badge.astro";
+
+interface Props {
+  resource: {
+    name: string;
+    url: string;
+    description: string;
+    tags: string[] | null;
+    favorite: boolean;
+  };
+}
+
+const { resource } = Astro.props;
+---
+
+<li>
+  <a href={resource.url} target="_blank">
+    {resource.name}
+  </a>
+  <span>{resource.description}</span>
+  <div>
+    {resource.tags && resource.tags.map((tag: any) => <Badge text={tag} />)}
+  </div>
+</li>
+
+<style>
+  li {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #494949;
+    flex-grow: 1;
+  }
+</style>

@@ -1,0 +1,40 @@
+---
+import FormattedDate from "./FormattedDate.astro";
+const { post } = Astro.props;
+---
+
+<li class="post-card">
+  <a href={`/blog/${post.id}`}>
+    <div style={`background-image: url(${post.data.image.url})`}></div>
+    <h4>{post.data.title}</h4>
+    <FormattedDate date={new Date(post.data.pubDate)} />
+  </a>
+</li>
+
+<style>
+  li.post-card {
+    list-style: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      flex-direction: column;
+    }
+
+    div {
+      background-color: rgb(24, 23, 23);
+      background-size: cover;
+      background-position: center;
+      height: 150px;
+      border-radius: 10px 10px 0 0;
+    }
+
+    h4 {
+      padding: 10px;
+      margin: 0;
+    }
+  }
+</style>

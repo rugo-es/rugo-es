@@ -1,0 +1,20 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import HeaderPage from "../../components/HeaderPage.astro";
+import PostCard from "../../components/PostCard.astro";
+import PostCardsContainer from "../../components/PostCardsContainer.astro";
+
+import { getCollection } from "astro:content";
+const allPosts = (await getCollection("blog")).sort(
+  (a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+<Layout>
+  <HeaderPage
+    title="Blog"
+    subtitle="Tutoriales, guías, cheatsheets y otras cosas..."
+  />
+  <PostCardsContainer>
+    {allPosts.map((post: any) => <PostCard post={post} />)}
+  </PostCardsContainer>
+</Layout>

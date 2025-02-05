@@ -1,0 +1,28 @@
+---
+import PostCard from "../components/PostCard.astro"
+import PostCardsContainer from "../components/PostCardsContainer.astro"
+
+import { getCollection } from "astro:content";
+const allPosts = (await getCollection("blog")).sort(
+  (a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+)
+---
+
+<section>
+  <h2>Últimas entradas al blog</h2>
+  <PostCardsContainer>
+    {allPosts.map((post: any) => <PostCard post={post} />)}
+  </PostCardsContainer>
+</section>
+
+<style>
+  section {
+    padding: 50px 0;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px 20px;
+  }
+</style>
