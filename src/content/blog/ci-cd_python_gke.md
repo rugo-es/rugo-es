@@ -1,11 +1,11 @@
 ---
 title: 'CI/CD de aplicación de python en GKE'
-description: 'Ejemplo del flujo de trabajo completo para desplegar una aplicación de python en un servicio GKE a través de pipeline de gitlab'
-pubDate: 2022-07-01
+description: 'Ejemplo del flujo de trabajo completo para desplegar una aplicación de python en un servicio GKE a través de pipeline de gitlab.'
+pubDate: 2025-01-10
 image:
     url: '/ci-cd_python_gke.svg'
-    alt: 'El logotipo completo de Astro.'
-tags: ["astro", "bloguear", "aprender en público"]
+    alt: 'Esquema del flujo de trabajo.'
+tags: ["gcp", "gke", "gitlab", "python"]
 ---
 
 ## 1. Aplicación básica de python
@@ -67,8 +67,6 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 http://localhost:8000
 
-http://localhost:8000/docs
-
 ## 2. Empaquetar aplicación en una imagen docker
 
 - Crea el archivo __Dockerfile__
@@ -124,7 +122,6 @@ docker run -d --name fastapi-container -p 9000:8000 fastapi-app:amd64
 
 http://localhost:9000
 
-http://localhost:9000/docs
 
 ## 3. Publicar imagen en Docker Hub
 
@@ -165,13 +162,13 @@ docker run -d --name fastapi-container -p 9000:8000 [USERNAME]/fastapi-app:v1.0
 - Crear el cluster
 
 ```bash
-gcloud container clusters create --machine-type=e2-small --num-nodes 1  --zone=europe-west1-b [cluster name]
+gcloud container clusters create --machine-type=e2-small --num-nodes 1  --zone=europe-west1-b [CLUSTER NAME]
 ```
 
 - Obtener las credenciales del cluster para operar y crear elementos
 
 ```bash
-gcloud container clusters get-credentials [cluster name] --zone=europe-west1-b
+gcloud container clusters get-credentials [CLUSTER NAME] --zone=europe-west1-b
 ```
 
 - Crear el deployment
@@ -237,7 +234,7 @@ kubectl create -f kubernetes/service.yaml
 kubectl delete -f kubernetes/deployment.yaml
 kubectl delete -f kubernetes/service.yaml
 
-gcloud container clusters delete [cluster name]
+gcloud container clusters delete [CLUSTER NAME]
 ```
 
 ### Realizar cambios en la aplicación y actualizar el clúster
@@ -290,6 +287,8 @@ variables:
   DOCKERHUB_USER: [DOCKERHUB_USER]
   DOCKERHUB_PASS: [DOCKERHUB_PASS]
   IMAGE_NAME: "$DOCKERHUB_USER/fastapi-app"
+  GCP_PROJECT_ID: [GCP PROJECT]
+  GCP_ZONE: [GCP ZONE] # europe-west1-b
 
 image: google/cloud-sdk:latest
 
