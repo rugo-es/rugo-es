@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://tech.rugo.es'
+  site: 'https://rugo-es.github.io'
 });
