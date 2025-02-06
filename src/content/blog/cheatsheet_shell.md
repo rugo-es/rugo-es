@@ -1,6 +1,6 @@
 ---
-title: 'Shell cheatsheet'
-description: 'Comandos básicos shell'
+title: 'bash cheatsheet'
+description: 'Comandos básicos'
 pubDate: 2025-01-15
 image:
     url: '/blog/cheatsheet_shell.svg'

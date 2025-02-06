@@ -1,0 +1,49 @@
+---
+title: 'Ubuntu - Setup'
+description: 'Instalaciones principales para desarrollar en ubuntu.'
+pubDate: 2025-02-06
+image:
+    url: '/blog/ci-cd_python_gke.svg'
+    alt: 'Pulumi - get started'
+    bgColor: white
+tags: ["ubuntu", "servidores"]
+---
+- Instalar pulumi
+
+```bash
+curl -fsSL https://get.pulumi.com | sh
+
+# Agregar al PATH
+export PATH=$PATH:/root/.pulumi/bin
+```
+
+- Instalar python
+
+```bash
+sudo apt update
+sudo apt install -y python3.11
+sudo apt install -y python3-pip
+
+# Agregar un alias
+echo "alias py='python3'" >> ~/.bashrc
+source ~/.bashrc
+```
+
+- Instalar gcloud CLI
+
+https://cloud.google.com/sdk/docs/install?hl=es-419#deb
+
+```bash
+# Actualizar paquetes e instalar dependencias
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates gnupg curl
+
+# Importar la clave de google cloud
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+
+# Agregar la url de distribucion de gcloud CLI
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+
+# Instalar gcloud CLI
+sudo apt-get install google-cloud-cli
+```

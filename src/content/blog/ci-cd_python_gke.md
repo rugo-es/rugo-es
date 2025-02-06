@@ -64,9 +64,7 @@ async def read_item(item_id):
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
-- Acceder a la aplicación
-
-http://localhost:8000
+- Acceder a la aplicación http://localhost:8000
 
 ## 2. Empaquetar aplicación en una imagen docker
 
@@ -119,9 +117,7 @@ docker run -d --name fastapi-container -p 9000:8000 fastapi-app
 docker run -d --name fastapi-container -p 9000:8000 fastapi-app:amd64
 ```
 
-- Acceder a la aplicación que se esta ejecutando en el contenedor
-
-http://localhost:9000
+- Acceder a la aplicación que se esta ejecutando en el contenedor http://localhost:9000
 
 
 ## 3. Publicar imagen en Docker Hub
