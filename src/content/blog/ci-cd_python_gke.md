@@ -3,8 +3,9 @@ title: 'CI/CD de aplicación de python en GKE'
 description: 'Ejemplo del flujo de trabajo completo para desplegar una aplicación de python en un servicio GKE a través de pipeline de gitlab.'
 pubDate: 2025-01-10
 image:
-    url: '/ci-cd_python_gke.svg'
+    url: '/blog/ci-cd_python_gke.svg'
     alt: 'Esquema del flujo de trabajo.'
+    bgColor: white
 tags: ["gcp", "gke", "gitlab", "python"]
 ---
 

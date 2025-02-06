@@ -3,8 +3,9 @@ title: 'Shell cheatsheet'
 description: 'Comandos básicos shell'
 pubDate: 2025-01-15
 image:
-    url: '/ci-cd_python_gke.svg'
+    url: '/blog/cheatsheet_shell.svg'
     alt: 'Esquema del flujo de trabajo.'
+    bgColor: '#293036'
 tags: ["gcp", "gke", "gitlab", "python"]
 ---
 

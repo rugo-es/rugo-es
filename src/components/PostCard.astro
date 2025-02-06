@@ -5,7 +5,7 @@ const { post } = Astro.props;
 
 <li class="post-card">
   <a href={`/blog/${post.id}`}>
-    <div style={`background-image: url(${post.data.image.url})`}></div>
+    <div style={`background-image: url(${post.data.image.url}); background-color: ${post.data.image.bgColor}`}></div>
     <h4>{post.data.title}</h4>
     <FormattedDate date={new Date(post.data.pubDate)} />
   </a>
@@ -25,9 +25,9 @@ const { post } = Astro.props;
     }
 
     div {
-      background-color: rgb(24, 23, 23);
       background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
       height: 150px;
       border-radius: 10px 10px 0 0;
     }

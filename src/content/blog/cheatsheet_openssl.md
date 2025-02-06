@@ -1,14 +1,13 @@
 ---
 title: 'openssl cheatsheet'
-description: 'Uso y ejemplos del comando openssl.'
+description: 'Uso y ejemplos de la herramienta.'
 pubDate: 2025-01-10
 image:
-    url: '/ci-cd_python_gke.svg'
+    url: '/blog/cheatsheet_openssl.svg'
     alt: 'Esquema del flujo de trabajo.'
+    bgColor: '#e9ecef'
 tags: ["gcp", "gke", "gitlab", "python"]
 ---
-
-## openssl
 
 ### Generar certificados autofirmados
 
