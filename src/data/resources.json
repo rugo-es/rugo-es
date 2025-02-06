@@ -344,7 +344,7 @@
   },
   {
     "name": "SVG repo",
-    "url": "svgrepo.com",
+    "url": "https://svgrepo.com",
     "description": "",
     "tags": ["iconos"],
     "favorite": false

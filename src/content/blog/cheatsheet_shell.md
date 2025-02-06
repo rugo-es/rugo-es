@@ -17,6 +17,9 @@ Ejemplos:
 ```bash
 sed -i -e "s|mirrorlist=|#mirrorlist=|g" /etc/yum.repos.d/CentOS-*
 
+-i    Sobreescribe el fichero original
+-e    Especifica que varios comandos se ejecuten a la vez
+
 # Aplicar sed a un conjunto de archicos devuelto por grep
 grep -rl texto | xargs sed -i 's/texto/lalala/g'
 ```
