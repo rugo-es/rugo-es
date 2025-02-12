@@ -111,8 +111,9 @@ scp -i [clave ssh] [usuario remoto]@[host remoto]:[archivo remoto] [directorio l
 /etc/group
 ```
 
-### Crear un usuario 
-Guía completa: https://docs.bluehosting.cl/tutoriales/servidores/como-administrar-sus-usuarios-y-grupos-en-linux.html
+### Crear un usuario
+
+<a href="https://docs.bluehosting.cl/tutoriales/servidores/como-administrar-sus-usuarios-y-grupos-en-linux.html" target="_blank" rel="noopener noreferrer">Guía completa</a>
 
 ```bash
 useradd [nombre usuario]

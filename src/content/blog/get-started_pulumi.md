@@ -163,3 +163,7 @@ Obtendremos el contenido de index.html
 ```bash
 pulumi destroy
 ```
+
+- Repositorio de paquetes
+
+https://www.pulumi.com/registry/

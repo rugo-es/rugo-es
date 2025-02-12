@@ -1,5 +1,11 @@
 [
-  
+  {
+    "name": "Diawi",
+    "url": "https://www.diawi.com/",
+    "description": "Comparte archivos apk de manera sencilla",
+    "tags": ["app"],
+    "favorite": false
+  },
   {
     "name": "NESS.css",
     "url": "https://nostalgic-css.github.io/NES.css/",
