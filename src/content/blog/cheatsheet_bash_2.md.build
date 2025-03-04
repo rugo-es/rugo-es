@@ -3,10 +3,10 @@ title: 'bash cheatsheet'
 description: 'Comandos básicos'
 pubDate: 2025-01-15
 image:
-    url: '/blog/cheatsheet_shell.svg'
-    alt: 'Esquema del flujo de trabajo.'
+    url: '/blog/cheatsheet_bash.svg'
+    alt: 'Bash icon.'
     bgColor: '#293036'
-tags: ["gcp", "gke", "gitlab", "python"]
+tags: ["bash", "ubuntu", "shell", "servidor"]
 ---
 
 ## SED
