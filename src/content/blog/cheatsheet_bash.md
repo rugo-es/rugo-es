@@ -9,9 +9,6 @@ image:
 tags: ["bash", "ubuntu", "shell", "servidor"]
 ---
 
-Fuente:
-https://www.freecodecamp.org/espanol/news/tutorial-de-programacion-de-bash-script-de-shell-de-linux-y-linea-de-comandos-para-principiantes/
-
 ### Determinar el tipo de shell
 
 ```bash
