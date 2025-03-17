@@ -71,6 +71,9 @@ openssl x509 -in certificado.crt -noout -dates
 # Output:
 notBefore=Oct 15 15:12:53 2024 GMT
 notAfter=Oct 15 15:12:53 2025 GMT
+
+# Mostar toda la información del certificado
+openssl x509 -in certificado.crt -noout -text
 ```
 
 - Comprobar certificados remotos
@@ -86,6 +89,9 @@ echo | openssl s_client -connect 11.22.33.44:443 2>/dev/null | openssl x509 -noo
 # Output:
 notBefore=Oct 15 15:12:53 2024 GMT
 notAfter=Oct 15 15:12:53 2025 GMT
+
+# Crear una conexión a un servidor y mostrar la información del certificado
+openssl s_client -connect dominio.example:443 -servername dominio.example
 ```
 
 ### Certificados con formato p12
