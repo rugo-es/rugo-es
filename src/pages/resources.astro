@@ -14,13 +14,41 @@ const allTags = new Set(resources.flatMap((resource) => resource.tags ?? []));
     title="Recursos"
     subtitle="Enlaces a herramientas, servicios y proyectos interesantes"
   />
-  <div>
-    {[...allTags].map((tag) => <Badge text={tag} />)}
+    <!-- 
+    <ul id="item-list">
+      {items.map(item => (
+        <li key={item.id} data-category={item.category}>
+          {item.name} ({item.category})
+        </li>
+      ))}
+    </ul>
+-->
+  
+  <div id="filterTags">
+    {[...allTags].map((tag) => <button class="filterTag" data-filter={tag}>{tag}</button>)}
   </div>
   <ResourceCardsContainer>
     {resources.map((resource) => <ResourceCard resource={resource} />)}
   </ResourceCardsContainer>
 </Layout>
+
+<script type="module">
+  const filterItems = document.querySelectorAll('#filterTags .filterTag');
+  const items = document.querySelectorAll('ul.resourceCardsContainer li');
+  filterItems.forEach(filterItem => {
+    filterItem.addEventListener('click', () => {
+      const filter = filterItem.dataset.filter;
+      items.forEach(item => {
+        const itemCategory = item.dataset.category;
+        if (itemCategory !== undefined && itemCategory.split(',').includes(filter)) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
 
 <style>
   div {

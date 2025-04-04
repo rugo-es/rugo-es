@@ -453,5 +453,166 @@
     "description": "Comprobar la propagación de registros DNS",
     "tags": ["servidores"],
     "favorite": false
+  },
+  {
+    "name": "Developer Roadmaps",
+    "url": "https://roadmap.sh/",
+    "description": "Roadmaps de aprendizaje para diferentes roles.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "yesicon",
+    "url": "https://yesicon.app/",
+    "description": "Conjuntos de iconos open source y gratis.",
+    "tags": ["iconos"],
+    "favorite": false
+  },
+  {
+    "name": "Apache ECharts",
+    "url": "https://echarts.apache.org/",
+    "description": "Librería de gráficos javascript y open source.",
+    "tags": ["gráficos", "javascript"],
+    "favorite": false
+  },
+  {
+    "name": "svgl",
+    "url": "https://svgl.vercel.app/",
+    "description": "Librería de iconos SVG del gran pheralb.",
+    "tags": ["iconos"],
+    "favorite": false
+  },
+  {
+    "name": "Meta Tags Toolkit",
+    "url": "https://metatags.io/",
+    "description": "Genera meta tags para un sitio web para la visualización en Google, Twitter, Linkedin...",
+    "tags": ["web"],
+    "favorite": false
+  },
+  {
+    "name": "Leonardo.AI",
+    "url": "https://leonardo.ai/",
+    "description": "Generación de imágenes con inteligencia artificial.",
+    "tags": ["ia"],
+    "favorite": false
+  },
+  {
+    "name": "QuickRef.ME",
+    "url": "https://quickref.me/",
+    "description": "Cheatsheets de lenguajes de programación y otras herramientas.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "LDRS",
+    "url": "https://uiball.com/ldrs/",
+    "description": "Loaders y spinners para proyectos web.",
+    "tags": ["web"],
+    "favorite": false
+  },
+  {
+    "name": "FullCalendar",
+    "url": "https://fullcalendar.io/",
+    "description": "Calendario javascript, también para react, vue y angular.",
+    "tags": ["web"],
+    "favorite": false
+  },
+  {
+    "name": "ChatGPT & python",
+    "url": "https://gist.github.com/mouredev/58abfbcef017efaf3852e8821564c011",
+    "description": "Ejemplo de uso del API de ChatGPT desde python.",
+    "tags": ["ia", "api"],
+    "favorite": false
+  },
+  {
+    "name": "ScreenApp",
+    "url": "https://screenapp.io/",
+    "description": "Aplicación para grabar la pantalla.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "TinyMCE",
+    "url": "https://www.tiny.cloud/",
+    "description": "WYSIWYG editor para web.",
+    "tags": ["web"],
+    "favorite": false
+  },
+  {
+    "name": "stackedit",
+    "url": "https://stackedit.io/app",
+    "description": "Editor web de markdown con visualización en tiempo real.",
+    "tags": ["markdown"],
+    "favorite": false
+  },
+  {
+    "name": "soundraw",
+    "url": "https://soundraw.io/",
+    "description": "Generación de música con inteligencia artificial.",
+    "tags": ["ia"],
+    "favorite": false
+  },
+  {
+    "name": "Terminal CSS",
+    "url": "https://terminalcss.xyz/",
+    "description": "CSS framework para los amantes de la terminal.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "Storybook",
+    "url": "https://storybook.js.org/",
+    "description": "Herramienta para crear componentes de UI.",
+    "tags": ["web"],
+    "favorite": false
+  },
+  {
+    "name": "typehero",
+    "url": "https://typehero.dev/",
+    "description": "Aprende Typescript.",
+    "tags": ["typescript", "formación"],
+    "favorite": false
+  },
+  {
+    "name": "clippy",
+    "url": "https://bennettfeely.com/clippy/",
+    "description": "Genera clip-path de manera sencilla para CSS.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "Scroll-driven Animations",
+    "url": "https://scroll-driven-animations.style/",
+    "description": "Animaciones dirigidas por el scroll.",
+    "tags": ["web"],
+    "favorite": false
+  },
+  {
+    "name": "suno",
+    "url": "https://suno.com/",
+    "description": "Generación de música con IA.",
+    "tags": ["ia"],
+    "favorite": false
+  },
+  {
+    "name": "haikei",
+    "url": "https://app.haikei.app/",
+    "description": "Editor de fondos svg con formas.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "Open Full Stack",
+    "url": "https://fullstackopen.com/es/",
+    "description": "Master de full-stack gratis.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "How to use a design system",
+    "url": "https://www.freecodecamp.org/news/how-to-use-a-design-system/",
+    "description": "Como utilizar un sistema de diseño.",
+    "tags": [""],
+    "favorite": false
   }
 ]

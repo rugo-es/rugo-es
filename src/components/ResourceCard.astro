@@ -14,7 +14,7 @@ interface Props {
 const { resource } = Astro.props;
 ---
 
-<li>
+<li data-category={resource.tags}>
   <a href={resource.url} target="_blank">
     {resource.name}
   </a>
