@@ -614,5 +614,354 @@
     "description": "Como utilizar un sistema de diseño.",
     "tags": [""],
     "favorite": false
+  },
+  {
+    "name": "CSSGram",
+    "url": "https://una.github.io/CSSgram/",
+    "description": "Filtros CSS para imágenes estilo instagram.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "JSON Crack",
+    "url": "https://jsoncrack.com/editor",
+    "description": "Editor y visualizador JSON.",
+    "tags": ["json"],
+    "favorite": false
+  },
+  {
+    "name": "codi.link",
+    "url": "https://codi.link/",
+    "description": "Editor de HTML, CSS y JS online",
+    "tags": ["html", "css", "javascript"],
+    "favorite": false
+  },
+  {
+    "name": "Codédex",
+    "url": "https://www.codedex.io/",
+    "description": "Cursos de programación en un entorno de juego.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "Certificado profesional de Ciberseguridad de Google",
+    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity?irclickid=xASS490e2zUzTXRzUXyixVuEUkF1re32mwGfw80&irgwc=1&utm_medium=sem&utm_source=gg&utm_campaign=B2C_EMEA__coursera_FTCOF_career-academy_pmax-multiple-audiences-country-multi-set2&campaignid=20882109092&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adposition=&creativeid=&hide_mobile_promo&gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS3_5aqFaGKeEY9-J0AG2dTgS84BZ0j56MF3MLMRA1xKFTyW9d80QYEEaAt9WEALw_wcB",
+    "description": "Formación en coursera de ciberseguridad impartido por Google.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "bentogrids",
+    "url": "https://bentogrids.com/",
+    "description": "Ejemplos de layouts tipo bento.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "Fontsource",
+    "url": "https://fontsource.org/",
+    "description": "Fuentes open source.",
+    "tags": ["fuentes"],
+    "favorite": false
+  },
+  {
+    "name": "turso",
+    "url": "https://turso.tech/",
+    "description": "Bases de datos en la nube, con capa gratuita.",
+    "tags": ["base de datos"],
+    "favorite": false
+  },
+  {
+    "name": "Water.css",
+    "url": "https://watercss.kognise.dev/",
+    "description": "class-less library.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "Bolt.css",
+    "url": "https://boltcss.com/",
+    "description": "class-less library.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "Simple.css",
+    "url": "https://simplecss.org/",
+    "description": "class-less library.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "pico",
+    "url": "https://picocss.com/",
+    "description": "class-less library.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "Squoosh",
+    "url": "https://squoosh.app/",
+    "description": "Optimización de imágenes.",
+    "tags": ["imágenes"],
+    "favorite": false
+  },
+  {
+    "name": "Neumorphism.io",
+    "url": "https://neumorphism.io/",
+    "description": "Generador de diseños neumorficos.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "Cloudinary",
+    "url": "https://cloudinary.com/",
+    "description": "Plataforma de Imágenes y video, con API.",
+    "tags": ["imágenes"],
+    "favorite": false
+  },
+  {
+    "name": "Beautiful CSS box-shadow examples",
+    "url": "https://getcssscan.com/css-box-shadow-examples",
+    "description": "Ejemplos de sombras para elementos.",
+    "tags": ["css"],
+    "favorite": false
+  },
+  {
+    "name": "CodeSignal",
+    "url": "https://codesignal.com/",
+    "description": "Pruebas técnicas y perfil de programador público.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "Big O con ejemplos",
+    "url": "https://www.freecodecamp.org/espanol/news/explicacion-de-la-notacion-big-o-con-ejemplo/",
+    "description": "Árticulo de freeCodeCamp explicando la notación Big O.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "LofiGirl Shop",
+    "url": "https://lofigirlshop.com/",
+    "description": "Tienda de artículos de Lofi Girl.",
+    "tags": ["shop"],
+    "favorite": false
+  },
+  {
+    "name": "Top Linux commands and tricks for DevOps tasks",
+    "url": "https://vinodhakumara2681997.medium.com/top-linux-commands-and-tricks-for-devops-tasks-42cf93aa77e0",
+    "description": "Artículos de Medium de comandos Linux.",
+    "tags": ["linux"],
+    "favorite": false
+  },
+  {
+    "name": "Linux Cheatsheet",
+    "url": "https://medium.com/@mr.cloudbuddy/linux-commands-l1-as-an-aws-devops-engineer-accustomed-to-completing-daily-tasks-on-3d85a2971067",
+    "description": "Artículo de Medium con apuntes de comandos Linux.",
+    "tags": ["linux"],
+    "favorite": false
+  },
+  {
+    "name": "Etsy",
+    "url": "https://www.etsy.com/es",
+    "description": "Tienda de regalos.",
+    "tags": ["shop"],
+    "favorite": false
+  },
+  {
+    "name": "bundlejs",
+    "url": "https://bundlejs.com/",
+    "description": "Verificador de tamaño de los paquetes npm.",
+    "tags": ["javascript"],
+    "favorite": false
+  },
+  {
+    "name": "JSON Crack VS Code extension",
+    "url": "https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode",
+    "description": "Extensión de JSON crack para VS code.",
+    "tags": ["visual studio"],
+    "favorite": false
+  },
+  {
+    "name": "surge",
+    "url": "https://surge.sh/",
+    "description": "Alojamiento gratuito para aplicaciones web.",
+    "tags": ["hosting"],
+    "favorite": false
+  },
+  {
+    "name": "Monaspace by github",
+    "url": "https://monaspace.githubnext.com/",
+    "description": "Fuente de github.",
+    "tags": ["fuentes"],
+    "favorite": false
+  },
+  {
+    "name": "supermaven",
+    "url": "https://supermaven.com/",
+    "description": "Parecido a github copilot.",
+    "tags": ["ia"],
+    "favorite": false
+  },
+  {
+    "name": "neon",
+    "url": "https://neon.tech/",
+    "description": "Bases de datos en la nube con capa gratuita.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "dolthub",
+    "url": "https://www.dolthub.com/",
+    "description": "Bases de datos con control de versiones, capa gratuita.",
+    "tags": ["base de datos"],
+    "favorite": false
+  },
+  {
+    "name": "bundlephobia",
+    "url": "https://bundlephobia.com/",
+    "description": "Verificador de paquetes npm.",
+    "tags": ["javascript"],
+    "favorite": false
+  },
+  {
+    "name": "datos.madrid",
+    "url": "https://datos.madrid.es/portal/site/egob",
+    "description": "Catálogo de datos de la comunidad de Madrid.",
+    "tags": ["data"],
+    "favorite": false
+  },
+  {
+    "name": "Cómo crear un módulo en NPM",
+    "url": "https://medium.com/@muzk/c%C3%B3mo-crear-un-m%C3%B3dulo-en-npm-11ff8c1c699f",
+    "description": "Artículo de Medium sobre como crear tu propio paquete npm.",
+    "tags": ["javascript"],
+    "favorite": false
+  },
+  {
+    "name": "Sillicon Valley Shop",
+    "url": "https://shop.hbo.com/collections/silicon-valley",
+    "description": "Tienda oficial de Sillicon Valley la serie.",
+    "tags": ["shop"],
+    "favorite": false
+  },
+  {
+    "name": "EFSET Certificación en inglés",
+    "url": "https://www.efset.org/es/ef-set-50/",
+    "description": "Certificación en inglés gratuita.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "GSAP",
+    "url": "https://gsap.com/",
+    "description": "Animaciones para javascript",
+    "tags": ["javascript"],
+    "favorite": false
+  },
+  {
+    "name": "FilePizza",
+    "url": "https://file.pizza/",
+    "description": "Comparte ficheros fácilmente.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "opensourcealternative.to",
+    "url": "https://www.opensourcealternative.to/",
+    "description": "Alternativas open source a software de pago.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "Resend",
+    "url": "https://resend.com/",
+    "description": "Envío de emails vía API, capa gratuita.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "REST Countries",
+    "url": "https://restcountries.com",
+    "description": "API de información de paises.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "Sesame",
+    "url": "https://www.sesame.com/",
+    "description": "Practica conversaciones en inglés con una IA.",
+    "tags": ["ia"],
+    "favorite": false
+  },
+  {
+    "name": "kaggle",
+    "url": "https://www.kaggle.com/learn",
+    "description": "Cursos de python, machine learning y sql.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "Curso de aprendizaje automatico de Google",
+    "url": "https://developers.google.com/machine-learning/crash-course?hl=es-419&authuser=0",
+    "description": "Curso gratuito de machine learning de Google.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "stripe",
+    "url": "https://stripe.com/es",
+    "description": "Infraestructura financiera para proyectos.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "deno",
+    "url": "https://deno.com/",
+    "description": "Free hosting para javascript serverless.",
+    "tags": ["javascript"],
+    "favorite": false
+  },
+  {
+    "name": "Cloudflare",
+    "url": "https://www.cloudflare.com/es-es/",
+    "description": "Todo tipo de servicios para web.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "ShipFree",
+    "url": "https://shipfree.idee8.agency/",
+    "description": "Entorno para aplicaciones completo y gratuito.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "manz.dev",
+    "url": "https://terminaldelinux.com/",
+    "description": "Portal con información útil.",
+    "tags": ["formación"],
+    "favorite": false
+  },
+  {
+    "name": "AlbertoCoronado.com",
+    "url": "https://www.albertcoronado.com/",
+    "description": "Buen blog con cursos y prácticas devops y sistemas.",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "NullSafe Architect",
+    "url": "https://www.youtube.com/user/acoronadoc",
+    "description": "Canal de Youtube con prácticas sobre devops y sistemas",
+    "tags": [""],
+    "favorite": false
+  },
+  {
+    "name": "learngitbranching.js.org",
+    "url": "https://learngitbranching.js.org/",
+    "description": "Curso básico e interactivo de git.",
+    "favorite": false
   }
 ]
