@@ -65,14 +65,14 @@
   {
     "name": "ChatGPT",
     "url": "https://chat.openai.com/chat",
-    "description": "Modelo de lenguaje (LLM) desarrollado por OpenAI que basa su funcionamiento en la inteligencia artificial para la comprensión y generación de textos en lenguaje natural.",
+    "description": "Inteligencia artificial para la comprensión y generación de textos en lenguaje natural.",
     "tags": ["ia"],
     "favorite": false
   },
   {
     "name": "Animista",
     "url": "https://animista.net",
-    "description": "Biblioteca de animaciones y un lugar donde puedes jugar con animaciones CSS y descargar solo aquellas que usarás.",
+    "description": "Biblioteca de animaciones CSS y un lugar donde puedes jugar con ellas y descargar solo lo que usarás.",
     "tags": ["css", "animación"],
     "favorite": false
   },
@@ -142,7 +142,7 @@
   {
     "name": "squid",
     "url": "http://www.squid-cache.org",
-    "description": "Ofrece un rico entorno de control de acceso, autorización y registro para desarrollar aplicaciones de servidor de contenido y proxy web.",
+    "description": "Ofrece un rico entorno de control de acceso, autorización y registro como proxy web.",
     "tags": ["servidor"],
     "favorite": false
   },
@@ -184,12 +184,12 @@
   {
     "name": "web.dev",
     "url": "https://web.dev/",
-    "description": "Cursos de Google",
+    "description": "Cursos del equipo de Google Chrome.",
     "tags": ["formación"],
     "favorite": false
   },
   {
-    "name": "[Curso] Tiempos de carga rapidos",
+    "name": "[Curso] Tiempos de carga rápidos",
     "url": "https://web.dev/fast/",
     "description": "Técnicas para mejorar el rendimiento de un sitio web.",
     "tags": ["formación"],
@@ -317,7 +317,7 @@
   {
     "name": "DNS Propagation Checker",
     "url": "https://www.whatsmydns.net/",
-    "description": "Permite realizar instantáneamente una búsqueda DNS para verificar la dirección IP actual de un nombre de dominio y la información del registro DNS en múltiples servidores de nombres ubicados en diferentes partes del mundo.",
+    "description": "Permite realizar una búsqueda DNS para verificar la IP de un dominio y la información del registro DNS en diferentes partes del mundo.",
     "tags": ["servidor", "red"],
     "favorite": false
   },
@@ -469,7 +469,7 @@
     "favorite": false
   },
   {
-    "name": "Certificado profesional de Ciberseguridad de Google",
+    "name": "[Curso] Ciberseguridad by Google",
     "url": "https://www.coursera.org/professional-certificates/google-cybersecurity?irclickid=xASS490e2zUzTXRzUXyixVuEUkF1re32mwGfw80&irgwc=1&utm_medium=sem&utm_source=gg&utm_campaign=B2C_EMEA__coursera_FTCOF_career-academy_pmax-multiple-audiences-country-multi-set2&campaignid=20882109092&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adposition=&creativeid=&hide_mobile_promo&gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS3_5aqFaGKeEY9-J0AG2dTgS84BZ0j56MF3MLMRA1xKFTyW9d80QYEEaAt9WEALw_wcB",
     "description": "Formación en coursera de ciberseguridad impartido por Google.",
     "tags": ["formación"],
@@ -574,9 +574,9 @@
     "favorite": false
   },
   {
-    "name": "Top Linux commands and tricks for DevOps tasks",
+    "name": "Top Linux commands",
     "url": "https://vinodhakumara2681997.medium.com/top-linux-commands-and-tricks-for-devops-tasks-42cf93aa77e0",
-    "description": "Artículos de Medium de comandos Linux.",
+    "description": "Artículos de Medium de comandos Linux para DevOps.",
     "tags": ["linux"],
     "favorite": false
   },
