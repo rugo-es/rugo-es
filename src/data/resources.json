@@ -788,7 +788,7 @@
   },
   {
     "name": "Render",
-    "image": "render.jpeg",
+    "image": "render.png",
     "url": "https://render.com/",
     "description": "Cree, implemente y escale sus aplicaciones con una facilidad incomparable.",
     "tags": [
@@ -1067,7 +1067,7 @@
   },
   {
     "name": "Typed.js",
-    "image": "typedjs.png",
+    "image": "mattboldt.jpeg",
     "url": "https://mattboldt.github.io/typed.js/",
     "description": "Biblioteca JS de animación de escritura.",
     "tags": [
