@@ -474,6 +474,16 @@
     "favorite": false
   },
   {
+    "name": "ICONS8",
+    "image": "icons8.svg",
+    "url": "https://iconos8.es/icons",
+    "description": "Kit de iconos. Permite editar los colores, agregar texto...",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  },
+  {
     "name": "ILoveIMG",
     "image": "iloveimg.jpg",
     "url": "https://www.iloveimg.com/",
@@ -483,16 +493,6 @@
       "tools"
     ],
     "favorite": true
-  },
-  {
-    "name": "ICONS8",
-    "image": "icons8.svg",
-    "url": "https://iconos8.es/icons",
-    "description": "Kit de iconos. Permite editar los colores, agregar texto...",
-    "tags": [
-      "icons"
-    ],
-    "favorite": false
   },
   {
     "name": "Ionicons",
@@ -719,6 +719,17 @@
     "description": "Master de full-stack gratuito (react, nodejs, typescript...).",
     "tags": [
       "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Photopea",
+    "image": "photopea.png",
+    "url": "https://www.photopea.com/",
+    "description": "Versión light de Photoshop on-line.",
+    "tags": [
+      "image",
+      "tools"
     ],
     "favorite": false
   },
