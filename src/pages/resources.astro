@@ -6,7 +6,8 @@ import ResourceCard from "../components/ResourceCard.astro";
 import Badge from "../components/Badge.astro";
 import resources from "../data/resources.json";
 
-const allTags = new Set(resources.flatMap((resource) => resource.tags ?? []));
+const tagsSet = new Set(resources.flatMap((resource) => resource.tags ?? []));
+const tags = Array.from(tagsSet).sort((a, b) => a.localeCompare(b));
 ---
 
 <Layout>
@@ -25,7 +26,7 @@ const allTags = new Set(resources.flatMap((resource) => resource.tags ?? []));
 -->
   
   <div id="filterTags">
-    {[...allTags].map((tag) => <button class="filterTag" data-filter={tag}>{tag}</button>)}
+    {[...tags].map((tag) => <button class="filterTag" data-filter={tag}>{tag}</button>)}
   </div>
   <ResourceCardsContainer>
     {resources.map((resource) => <ResourceCard resource={resource} />)}

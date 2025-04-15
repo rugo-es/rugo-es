@@ -4,6 +4,7 @@ import Badge from "./Badge.astro";
 interface Props {
   resource: {
     name: string;
+    image: string;
     url: string;
     description: string;
     tags: string[] | null;
@@ -15,9 +16,12 @@ const { resource } = Astro.props;
 ---
 
 <li data-category={resource.tags}>
-  <a href={resource.url} target="_blank">
-    {resource.name}
-  </a>
+  <div class="resource-header">
+    <a href={resource.url} target="_blank">
+      {resource.name}
+    </a>
+    <img src={"/resources/"+resource.image} class="resource-icon">
+  </div>
   <span>{resource.description}</span>
   <div>
     {resource.tags && resource.tags.map((tag: any) => <Badge text={tag} />)}
@@ -45,5 +49,17 @@ const { resource } = Astro.props;
     font-size: 0.9rem;
     color: #494949;
     flex-grow: 1;
+  }
+  div.resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+  }
+  img.resource-icon {
+    height: 30px; 
+    margin: 0; 
+    border-radius: 3px;
+    align-self: flex-start;
   }
 </style>

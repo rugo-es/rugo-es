@@ -1,779 +1,1164 @@
 [
   {
-    "name": "Diawi",
-    "url": "https://www.diawi.com/",
-    "description": "Comparte aplicaciones (.apk) de manera sencilla.",
-    "tags": ["app"],
+    "name": "10015.io",
+    "image": "10015.png",
+    "url": "https://10015.io",
+    "description": "Mogollón de herramientas gratuitas online (text, image, css, coding, color...).",
+    "tags": [
+      "image",
+      "css",
+      "tools",
+      "json"
+    ],
     "favorite": false
   },
   {
-    "name": "NES.css",
-    "url": "https://nostalgic-css.github.io/NES.css/",
-    "description": "Framework CSS estilo Nintendo.",
-    "tags": ["css"],
-    "favorite": true
-  },
-  {
-    "name": "Showdown",
-    "url": "https://showdownjs.com/",
-    "description": "Conversor bidireccional de markdown a HTLM.",
-    "tags": ["javascript", "markdown", "conversor"],
-    "favorite": true
-  },
-  {
-    "name": "Typed.js",
-    "url": "https://mattboldt.github.io/typed.js/",
-    "description": "Biblioteca JS de animación de escritura.",
-    "tags": ["javascript", "animación"],
-    "favorite": true
-  },
-  {
-    "name": "Custom Shape Dividers",
-    "url": "https://www.shapedivider.app/",
-    "description": "Editor de formas para dividir secciones en formato SVG+CSS.",
-    "tags": ["css", "svg"],
-    "favorite": true
-  },
-  {
-    "name": "quicktype",
-    "url": "https://quicktype.io",
-    "description": "Convierte JSON en un código atractivo y seguro en cualquier lenguaje de programación.",
-    "tags": ["conversor"],
+    "name": "Airtap - Free UI sounds",
+    "image": "airtap.png",
+    "url": "https://airtap.io/w/uisounds",
+    "description": "Sonidos gratis para uso en interfaces de usuario (click, complete, cancel...).",
+    "tags": [
+      "audio"
+    ],
     "favorite": false
   },
   {
-    "name": "musicForProgramming()",
-    "url": "https://musicforprogramming.net",
-    "description": "Listas de música relajante tipo Lo-Fi. El diseño de la página es espectacular.",
-    "tags": ["audio"],
+    "name": "AlbertoCoronado.com",
+    "image": "albertcoronado.jpeg",
+    "url": "https://www.albertcoronado.com/",
+    "description": "Buen blog con cursos y prácticas de devops y de sistemas.",
+    "tags": [
+      "learning",
+      "bash"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Animate.css",
+    "image": "animate.css.png",
+    "url": "https://animate.style",
+    "description": "Animaciones CSS compatibles con todos los navegadores para usar en sus proyectos web.",
+    "tags": [
+      "css",
+      "animotion"
+    ],
     "favorite": false
   },
   {
     "name": "Anime.js",
     "url": "https://animejs.com",
+    "image": "anime.js.png",
     "description": "Una biblioteca JS rápida y versátil para animar.",
-    "tags": ["javascript", "animación"],
+    "tags": [
+      "javascript",
+      "animotion"
+    ],
     "favorite": true
-  },
-  {
-    "name": "Animate.css",
-    "url": "https://animate.style",
-    "description": "Biblioteca de animaciones CSS compatibles con todos los navegadores para usar en sus proyectos web.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com/chat",
-    "description": "Inteligencia artificial para la comprensión y generación de textos en lenguaje natural.",
-    "tags": ["ia"],
-    "favorite": false
   },
   {
     "name": "Animista",
+    "image": "animista.jpg",
     "url": "https://animista.net",
-    "description": "Biblioteca de animaciones CSS y un lugar donde puedes jugar con ellas y descargar solo lo que usarás.",
-    "tags": ["css", "animación"],
-    "favorite": false
-  },
-  {
-    "name": "Airtap free UI sounds",
-    "url": "https://airtap.io/w/uisounds",
-    "description": "Sonidos gratis para uso en interfaces de usuario (click, complete, cancel...).",
-    "tags": ["audio"],
-    "favorite": false
-  },
-  {
-    "name": "WebGradients",
-    "url": "https://webgradients.com",
-    "description": "Colección de gradientes chulos, puedes descargar en formato PNG u obtener el código CSS.",
-    "tags": ["css", "imagen"],
-    "favorite": false
-  },
-  {
-    "name": "Datatables",
-    "url": "https://datatables.net/",
-    "description": "Biblioteca JS que mejora las tablas HTML (filtros, paginación, orden, búsqueda...)",
-    "tags": ["javascript"],
-    "favorite": false
-  },
-  {
-    "name": "Slazzer",
-    "url": "https://www.slazzer.com/",
-    "description": "Elimina el fondo de una imagen. Cuenta con API para integraciones vía programación.",
-    "tags": ["imagen", "api"],
-    "favorite": false
-  },
-  {
-    "name": "CockroachDB",
-    "url": "https://www.cockroachlabs.com/",
-    "description": "Bases de datos en la nube fácil de administrar y escalar, ofrecen capa gratuita.",
-    "tags": ["cloud", "base de datos"],
-    "favorite": false
-  },
-  {
-    "name": "10015.io",
-    "url": "https://10015.io",
-    "description": "Mogollón de herramientas gratuitas online (text, image, css, coding, color...).",
-    "tags": ["imagen", "css", "conversor"],
-    "favorite": false
-  },
-  {
-    "name": "Quickchart",
-    "url": "https://quickchart.io",
-    "description": "Genera imágenes de gráficos con una API simple y abierta.",
-    "tags": ["imagen", "api", "gráfica"],
-    "favorite": false
-  },
-  {
-    "name": "Ngrok",
-    "url": "https://ngrok.com/",
-    "description": "API flexible para una conectividad instantánea y segura en cualquier lugar, público o privado.",
-    "tags": ["api"],
-    "favorite": false
-  },
-  {
-    "name": "Clippy",
-    "url": "https://bennettfeely.com/clippy/",
-    "description": "Creador de clip-paths.",
-    "tags": ["imagen", "css"],
-    "favorite": false
-  },
-  {
-    "name": "squid",
-    "url": "http://www.squid-cache.org",
-    "description": "Ofrece un rico entorno de control de acceso, autorización y registro como proxy web.",
-    "tags": ["servidor"],
-    "favorite": false
-  },
-  {
-    "name": "EF SET",
-    "url": "https://www.efset.org/",
-    "description": "Certificación de inglés gratuita y para Linkedin.",
-    "tags": ["formación", "inglés"],
-    "favorite": false
-  },
-  {
-    "name": "DummyJSON",
-    "url": "https://dummyjson.com",
-    "description": "API con datos para identificación, usuarios, productos...",
-    "tags": ["api", "json"],
-    "favorite": false
-  },
-  {
-    "name": "NASA API",
-    "url": "https://api.nasa.gov",
-    "description": "La API de la NASA.",
-    "tags": ["api"],
-    "favorite": false
-  },
-  {
-    "name": "Live server",
-    "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
-    "description": "Ver cambios automáticamente en el navegador sin refrescar.",
-    "tags": ["vs-code"],
-    "favorite": false
-  },
-  {
-    "name": "SSH Remote",
-    "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh",
-    "description": "Te permite editar código en un servidor remoto a través de una conexión SSH.",
-    "tags": ["vs-code"],
-    "favorite": false
-  },
-  {
-    "name": "web.dev",
-    "url": "https://web.dev/",
-    "description": "Cursos del equipo de Google Chrome.",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "[Curso] Tiempos de carga rápidos",
-    "url": "https://web.dev/fast/",
-    "description": "Técnicas para mejorar el rendimiento de un sitio web.",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "Google Fonts",
-    "url": "https://fonts.google.com/",
-    "description": "Fuentes de Google.",
-    "tags": ["fuentes"],
-    "favorite": false
-  },
-  {
-    "name": "Font Squirrel",
-    "url": "https://www.fontsquirrel.com/",
-    "description": "Colección de fuentes gratuitas.",
-    "tags": ["fuentes"],
-    "favorite": false
-  },
-  {
-    "name": "DaFont",
-    "url": "https://www.dafont.com/es/",
-    "description": "Colección de fuentes gratuitas y de pago.",
-    "tags": ["fuentes"],
-    "favorite": false
-  },
-  {
-    "name": "supabase",
-    "url": "https://supabase.com/",
-    "description": "Alternativa open source a Firebase.",
-    "tags": ["back-end", "cloud"],
-    "favorite": false
-  },
-  {
-    "name": "UI Avatars",
-    "url": "https://eu.ui-avatars.com/",
-    "description": "Generar avatares con iniciales de nombres.",
-    "tags": ["imagen", "api"],
-    "favorite": true
-  },
-  {
-    "name": "Picsum",
-    "url": "https://picsum.photos",
-    "description": "Imágenes random o fijas de tamaño configurable para placeholders.",
-    "tags": ["imagen", "api"],
-    "favorite": false
-  },
-  {
-    "name": "ICONS8",
-    "url": "https://iconos8.es/icons",
-    "description": "Kit de iconos. Permite editar los colores, agregar texto...",
-    "tags": ["iconos"],
-    "favorite": false
-  },
-  {
-    "name": "SVG Repo",
-    "url": "https://svgrepo.com",
-    "description": "Busca, explora y edita los íconos o vectores gratuitos que mejor se adapten a tus proyectos.",
-    "tags": ["iconos"],
-    "favorite": false
-  },
-  {
-    "name": "Bootstrap icons",
-    "url": "https://icons.getbootstrap.com/",
-    "description": "Biblioteca de iconos gratuita, de alta calidad y de código abierto.",
-    "tags": ["iconos"],
-    "favorite": false
-  },
-  {
-    "name": "Ionicons",
-    "url": "https://ionic.io/ionicons",
-    "description": "Íconos de código abierto. Hechos a mano con cariño.",
-    "tags": ["iconos"],
-    "favorite": false
-  },
-  {
-    "name": "Font Awesome",
-    "url": "https://fontawesome.com/",
-    "description": "Iconos para tus sitios web.",
-    "tags": ["iconos"],
-    "favorite": false
-  },
-  {
-    "name": "Google Icons",
-    "url": "https://fonts.google.com/icons",
-    "description": "Librería de iconos by Google.",
-    "tags": ["iconos"],
-    "favorite": false
-  },
-  {
-    "name": "Serverless Framework",
-    "url": "https://www.serverless.com/",
-    "description": "Implementa APIs, tareas programadas, flujos de trabajo y aplicaciones basadas en eventos en AWS Lambda fácilmente.",
-    "tags": ["cloud", "framework"],
-    "favorite": false
-  },
-  {
-    "name": "Pulumi",
-    "url": "https://www.pulumi.com/",
-    "description": "Automatiza y administra infraestructura como código en varios lenguajes de programación..",
-    "tags": ["cloud", "framework"],
-    "favorite": false
-  },
-  {
-    "name": "Netlify",
-    "url": "https://www.netlify.com/",
-    "description": "Ofrece una plataforma de desarrollo que incluye servicios backend de creación, implementación y sin servidor para aplicaciones web y sitios web dinámicos.",
-    "tags": ["cloud", "hosting"],
-    "favorite": false
-  },
-  {
-    "name": "Vercel",
-    "url": "https://vercel.com/",
-    "description": "Proporciona herramientas para desarrolladores e infraestructura en la nube para crear, escalar y proteger una web más rápida y personalizada.",
-    "tags": ["cloud", "hosting"],
-    "favorite": false
-  },
-  {
-    "name": "Render",
-    "url": "https://render.com/",
-    "description": "Cree, implemente y escale sus aplicaciones con una facilidad incomparable.",
-    "tags": ["cloud", "hosting"],
-    "favorite": false
-  },
-  {
-    "name": "DNS Propagation Checker",
-    "url": "https://www.whatsmydns.net/",
-    "description": "Permite realizar una búsqueda DNS para verificar la IP de un dominio y la información del registro DNS en diferentes partes del mundo.",
-    "tags": ["servidor", "red"],
-    "favorite": false
-  },
-  {
-    "name": "Developer Roadmaps",
-    "url": "https://roadmap.sh/",
-    "description": "Roadmaps de aprendizaje para diferentes roles.",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "Yesicon",
-    "url": "https://yesicon.app/",
-    "description": "Conjuntos de iconos open source y gratis.",
-    "tags": ["iconos"],
+    "description": "Animaciones CSS y un lugar donde puedes jugar con ellas y descargar solo lo que uses.",
+    "tags": [
+      "css",
+      "animotion",
+      "tools"
+    ],
     "favorite": false
   },
   {
     "name": "Apache ECharts",
+    "image": "echarts.png",
     "url": "https://echarts.apache.org/",
     "description": "Librería JS de gráficos open source.",
-    "tags": ["gráfica", "javascript"],
+    "tags": [
+      "charts",
+      "javascript"
+    ],
     "favorite": false
   },
   {
-    "name": "svgl",
-    "url": "https://svgl.vercel.app/",
-    "description": "Librería de iconos SVG del gran pheralb.",
-    "tags": ["iconos"],
-    "favorite": false
-  },
-  {
-    "name": "Meta Tags",
-    "url": "https://metatags.io/",
-    "description": "Genera meta tags para un sitio web para la visualización en Google, Twitter, Linkedin...",
-    "tags": ["web"],
-    "favorite": false
-  },
-  {
-    "name": "Leonardo.AI",
-    "url": "https://leonardo.ai/",
-    "description": "Generación de imágenes con inteligencia artificial.",
-    "tags": ["ia"],
-    "favorite": false
-  },
-  {
-    "name": "QuickRef.ME",
-    "url": "https://quickref.me/",
-    "description": "Cheatsheets de lenguajes de programación y otras herramientas.",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "LDRS",
-    "url": "https://uiball.com/ldrs/",
-    "description": "Loaders y spinners para proyectos web. Personalizables y en diferentes formatos.",
-    "tags": ["web", "css"],
-    "favorite": false
-  },
-  {
-    "name": "FullCalendar",
-    "url": "https://fullcalendar.io/",
-    "description": "Calendario javascript, también para react, vue y angular.",
-    "tags": ["web", "javascript"],
-    "favorite": false
-  },
-  {
-    "name": "TinyMCE",
-    "url": "https://www.tiny.cloud/",
-    "description": "WYSIWYG editor para web.",
-    "tags": ["web"],
-    "favorite": false
-  },
-  {
-    "name": "stackedit",
-    "url": "https://stackedit.io/app",
-    "description": "Editor web de markdown con visualización en tiempo real.",
-    "tags": ["markdown"],
-    "favorite": false
-  },
-  {
-    "name": "soundraw",
-    "url": "https://soundraw.io/",
-    "description": "Generación de música con inteligencia artificial.",
-    "tags": ["ia"],
-    "favorite": false
-  },
-  {
-    "name": "Terminal CSS",
-    "url": "https://terminalcss.xyz/",
-    "description": "CSS framework para los amantes de la terminal.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "Storybook",
-    "url": "https://storybook.js.org/",
-    "description": "Herramienta para crear componentes de UI.",
-    "tags": ["web"],
-    "favorite": false
-  },
-  {
-    "name": "typehero",
-    "url": "https://typehero.dev/",
-    "description": "Aprende Typescript.",
-    "tags": ["typescript", "formación"],
-    "favorite": false
-  },
-  {
-    "name": "suno",
-    "url": "https://suno.com/",
-    "description": "Generación de música con IA.",
-    "tags": ["ia"],
-    "favorite": false
-  },
-  {
-    "name": "Open Full Stack",
-    "url": "https://fullstackopen.com/es/",
-    "description": "Master de full-stack gratuito (react, nodejs, typescript...).",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "CSSGram",
-    "url": "https://una.github.io/CSSgram/",
-    "description": "Filtros CSS para imágenes estilo instagram.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "JSON Crack",
-    "url": "https://jsoncrack.com/editor",
-    "description": "Editor y visualizador JSON.",
-    "tags": ["json"],
-    "favorite": false
-  },
-  {
-    "name": "codi.link",
-    "url": "https://codi.link/",
-    "description": "Editor de HTML, CSS y JS online",
-    "tags": ["css", "javascript"],
-    "favorite": false
-  },
-  {
-    "name": "Codédex",
-    "url": "https://www.codedex.io/",
-    "description": "Cursos de programación en un entorno de juego.",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "[Curso] Ciberseguridad by Google",
-    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity?irclickid=xASS490e2zUzTXRzUXyixVuEUkF1re32mwGfw80&irgwc=1&utm_medium=sem&utm_source=gg&utm_campaign=B2C_EMEA__coursera_FTCOF_career-academy_pmax-multiple-audiences-country-multi-set2&campaignid=20882109092&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adposition=&creativeid=&hide_mobile_promo&gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS3_5aqFaGKeEY9-J0AG2dTgS84BZ0j56MF3MLMRA1xKFTyW9d80QYEEaAt9WEALw_wcB",
-    "description": "Formación en coursera de ciberseguridad impartido por Google.",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "bentogrids",
-    "url": "https://bentogrids.com/",
-    "description": "Ejemplos de layouts tipo bento.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "Fontsource",
-    "url": "https://fontsource.org/",
-    "description": "Fuentes open source.",
-    "tags": ["fuentes"],
-    "favorite": false
-  },
-  {
-    "name": "turso",
-    "url": "https://turso.tech/",
-    "description": "Bases de datos en la nube, con capa gratuita.",
-    "tags": ["base de datos"],
-    "favorite": false
-  },
-  {
-    "name": "Water.css",
-    "url": "https://watercss.kognise.dev/",
-    "description": "class-less library.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "Bolt.css",
-    "url": "https://boltcss.com/",
-    "description": "class-less library.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "Simple.css",
-    "url": "https://simplecss.org/",
-    "description": "class-less library.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "pico",
-    "url": "https://picocss.com/",
-    "description": "class-less library.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "Squoosh",
-    "url": "https://squoosh.app/",
-    "description": "Optimización de imágenes.",
-    "tags": ["imagen"],
-    "favorite": false
-  },
-  {
-    "name": "Neumorphism.io",
-    "url": "https://neumorphism.io/",
-    "description": "Generador de diseños neumórficos.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "Cloudinary",
-    "url": "https://cloudinary.com/",
-    "description": "Plataforma de Imágenes y video, con API.",
-    "tags": ["imagen"],
+    "name": "Aprendizaje automatico by Google",
+    "image": "google.png",
+    "url": "https://developers.google.com/machine-learning/crash-course?hl=es-419&authuser=0",
+    "description": "Curso gratuito de machine learning de Google.",
+    "tags": [
+      "learning"
+    ],
     "favorite": false
   },
   {
     "name": "Beautiful CSS box-shadow",
+    "image": "cssscan.svg",
     "url": "https://getcssscan.com/css-box-shadow-examples",
     "description": "Ejemplos de sombras para elementos.",
-    "tags": ["css"],
-    "favorite": false
-  },
-  {
-    "name": "CodeSignal",
-    "url": "https://codesignal.com/",
-    "description": "Pruebas técnicas y perfil de programador público.",
-    "tags": ["formación"],
+    "tags": [
+      "css"
+    ],
     "favorite": false
   },
   {
     "name": "Big O Notation",
+    "image": "freecodecamp.png",
     "url": "https://www.freecodecamp.org/espanol/news/explicacion-de-la-notacion-big-o-con-ejemplo/",
     "description": "Árticulo de freeCodeCamp explicando la notación Big O.",
-    "tags": ["formación"],
+    "tags": [
+      "learning"
+    ],
     "favorite": false
   },
   {
-    "name": "LofiGirl Shop",
-    "url": "https://lofigirlshop.com/",
-    "description": "Tienda de artículos de Lofi Girl.",
-    "tags": ["tienda"],
+    "name": "Bolt.css",
+    "image": "boltcss.png",
+    "url": "https://boltcss.com/",
+    "description": "class-less library.",
+    "tags": [
+      "css"
+    ],
     "favorite": false
   },
   {
-    "name": "Top Linux commands",
-    "url": "https://vinodhakumara2681997.medium.com/top-linux-commands-and-tricks-for-devops-tasks-42cf93aa77e0",
-    "description": "Artículos de Medium de comandos Linux para DevOps.",
-    "tags": ["linux"],
-    "favorite": false
-  },
-  {
-    "name": "Linux Cheatsheet",
-    "url": "https://medium.com/@mr.cloudbuddy/linux-commands-l1-as-an-aws-devops-engineer-accustomed-to-completing-daily-tasks-on-3d85a2971067",
-    "description": "Artículo de Medium con apuntes de comandos Linux.",
-    "tags": ["linux"],
-    "favorite": false
-  },
-  {
-    "name": "Etsy",
-    "url": "https://www.etsy.com/es",
-    "description": "Tienda de regalos.",
-    "tags": ["tienda"],
+    "name": "Bootstrap icons",
+    "image": "bootstrap-icons.png",
+    "url": "https://icons.getbootstrap.com/",
+    "description": "Biblioteca de iconos gratuita, de alta calidad y de código abierto.",
+    "tags": [
+      "icons"
+    ],
     "favorite": false
   },
   {
     "name": "bundlejs",
+    "image": "bundlejs.svg",
     "url": "https://bundlejs.com/",
     "description": "Verificador de tamaño de los paquetes npm.",
-    "tags": ["javascript"],
-    "favorite": false
-  },
-  {
-    "name": "JSON Crack VS Code extension",
-    "url": "https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode",
-    "description": "Extensión de JSON crack para VS code.",
-    "tags": ["vs-code"],
-    "favorite": false
-  },
-  {
-    "name": "surge",
-    "url": "https://surge.sh/",
-    "description": "Alojamiento gratuito para aplicaciones web.",
-    "tags": ["hosting"],
-    "favorite": false
-  },
-  {
-    "name": "Monaspace by github",
-    "url": "https://monaspace.githubnext.com/",
-    "description": "Fuente oficial de github.",
-    "tags": ["fuentes"],
-    "favorite": false
-  },
-  {
-    "name": "supermaven",
-    "url": "https://supermaven.com/",
-    "description": "Parecido a github copilot.",
-    "tags": ["ia"],
-    "favorite": false
-  },
-  {
-    "name": "neon",
-    "url": "https://neon.tech/",
-    "description": "Bases de datos en la nube con capa gratuita.",
-    "tags": ["base de datos"],
-    "favorite": false
-  },
-  {
-    "name": "dolthub",
-    "url": "https://www.dolthub.com/",
-    "description": "Bases de datos con control de versiones, capa gratuita.",
-    "tags": ["base de datos"],
+    "tags": [
+      "javascript",
+      "typescript",
+      "tools"
+    ],
     "favorite": false
   },
   {
     "name": "bundlephobia",
+    "image": "bundlephobia.png",
     "url": "https://bundlephobia.com/",
     "description": "Verificador de paquetes npm.",
-    "tags": ["javascript"],
+    "tags": [
+      "javascript",
+      "typescript",
+      "tools"
+    ],
     "favorite": false
   },
   {
-    "name": "datos.madrid",
-    "url": "https://datos.madrid.es/portal/site/egob",
-    "description": "Catálogo de datos de la comunidad de Madrid.",
-    "tags": ["api"],
+    "name": "ChatGPT",
+    "image": "chatgpt.png",
+    "url": "https://chat.openai.com/chat",
+    "description": "Inteligencia artificial para la comprensión y generación de textos en lenguaje natural.",
+    "tags": [
+      "IA",
+      "learning",
+      "tools"
+    ],
     "favorite": false
   },
   {
-    "name": "Cómo crear un módulo en NPM",
-    "url": "https://medium.com/@muzk/c%C3%B3mo-crear-un-m%C3%B3dulo-en-npm-11ff8c1c699f",
-    "description": "Artículo de Medium sobre como crear tu propio paquete npm.",
-    "tags": ["javascript"],
+    "name": "Ciberseguridad by Google",
+    "image": "coursera.png",
+    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity?irclickid=xASS490e2zUzTXRzUXyixVuEUkF1re32mwGfw80&irgwc=1&utm_medium=sem&utm_source=gg&utm_campaign=B2C_EMEA__coursera_FTCOF_career-academy_pmax-multiple-audiences-country-multi-set2&campaignid=20882109092&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&adposition=&creativeid=&hide_mobile_promo&gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS3_5aqFaGKeEY9-J0AG2dTgS84BZ0j56MF3MLMRA1xKFTyW9d80QYEEaAt9WEALw_wcB",
+    "description": "Formación en coursera de ciberseguridad impartido por Google.",
+    "tags": [
+      "learning"
+    ],
     "favorite": false
   },
   {
-    "name": "Sillicon Valley Shop",
-    "url": "https://shop.hbo.com/collections/silicon-valley",
-    "description": "Tienda oficial de Sillicon Valley la serie.",
-    "tags": ["tienda"],
-    "favorite": false
-  },
-  {
-    "name": "GSAP",
-    "url": "https://gsap.com/",
-    "description": "Te permite animar sin esfuerzo cualquier cosa que JS pueda tocar",
-    "tags": ["javascript"],
-    "favorite": false
-  },
-  {
-    "name": "FilePizza",
-    "url": "https://file.pizza/",
-    "description": "Comparte ficheros fácilmente.",
-    "tags": ["web"],
-    "favorite": false
-  },
-  {
-    "name": "Resend",
-    "url": "https://resend.com/",
-    "description": "Envío de emails vía API, capa gratuita.",
-    "tags": ["api"],
-    "favorite": false
-  },
-  {
-    "name": "REST Countries",
-    "url": "https://restcountries.com",
-    "description": "API de información de paises.",
-    "tags": ["api"],
-    "favorite": false
-  },
-  {
-    "name": "Sesame",
-    "url": "https://www.sesame.com/",
-    "description": "Practica conversaciones en inglés con una IA.",
-    "tags": ["ia", "inglés", "formación"],
-    "favorite": false
-  },
-  {
-    "name": "kaggle",
-    "url": "https://www.kaggle.com/learn",
-    "description": "Cursos de python, machine learning y sql.",
-    "tags": ["formación", "python"],
-    "favorite": false
-  },
-  {
-    "name": "Curso de aprendizaje automatico de Google",
-    "url": "https://developers.google.com/machine-learning/crash-course?hl=es-419&authuser=0",
-    "description": "Curso gratuito de machine learning de Google.",
-    "tags": ["formación"],
-    "favorite": false
-  },
-  {
-    "name": "stripe",
-    "url": "https://stripe.com/es",
-    "description": "Infraestructura financiera para proyectos.",
-    "tags": ["web"],
-    "favorite": false
-  },
-  {
-    "name": "deno",
-    "url": "https://deno.com/",
-    "description": "Free hosting para javascript serverless.",
-    "tags": ["hosting", "javascript"],
+    "name": "Clippy",
+    "image": "clippy.png",
+    "url": "https://bennettfeely.com/clippy/",
+    "description": "Creador de clip-paths.",
+    "tags": [
+      "image",
+      "css",
+      "tools"
+    ],
     "favorite": false
   },
   {
     "name": "Cloudflare",
+    "image": "cloudflare.png",
     "url": "https://www.cloudflare.com/es-es/",
     "description": "Todo tipo de servicios para web.",
-    "tags": ["web", "hosting"],
+    "tags": [
+      "hosting",
+      "network"
+    ],
     "favorite": false
   },
   {
-    "name": "ShipFree",
-    "url": "https://shipfree.idee8.agency/",
-    "description": "Entorno para aplicaciones completo y gratuito.",
-    "tags": ["web"],
+    "name": "Cloudinary",
+    "image": "cloudinary.png",
+    "url": "https://cloudinary.com/",
+    "description": "Plataforma de imágenes y video, con API.",
+    "tags": [
+      "image",
+      "api"
+    ],
     "favorite": false
   },
   {
-    "name": "manz.dev",
-    "url": "https://terminaldelinux.com/",
-    "description": "Portal con información útil.",
-    "tags": ["formación"],
+    "name": "CockroachDB",
+    "image": "cockroach-labs.png",
+    "url": "https://www.cockroachlabs.com/",
+    "description": "Bases de datos en la nube fácil de administrar y escalar, ofrecen capa gratuita.",
+    "tags": [
+      "cloud",
+      "databases"
+    ],
     "favorite": false
   },
   {
-    "name": "AlbertoCoronado.com",
-    "url": "https://www.albertcoronado.com/",
-    "description": "Buen blog con cursos y prácticas devops y sistemas.",
-    "tags": ["formación"],
+    "name": "Codédex",
+    "image": "codedex.png",
+    "url": "https://www.codedex.io/",
+    "description": "Cursos de programación en un entorno de juego.",
+    "tags": [
+      "learning",
+      "python",
+      "databases",
+      "javascript",
+      "css"
+    ],
     "favorite": false
   },
   {
-    "name": "NullSafe Architect",
-    "url": "https://www.youtube.com/user/acoronadoc",
-    "description": "Canal de Youtube con prácticas sobre devops y sistemas",
-    "tags": ["formación"],
+    "name": "CodeSignal",
+    "image": "codesignal.png",
+    "url": "https://codesignal.com/",
+    "description": "Pruebas técnicas y perfil de programador público.",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "codi.link",
+    "image": "midudev.png",
+    "url": "https://codi.link/",
+    "description": "Editor de HTML, CSS y JS online",
+    "tags": [
+      "css",
+      "javascript",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Cómo crear un módulo en NPM",
+    "image": "medium.png",
+    "url": "https://medium.com/@muzk/c%C3%B3mo-crear-un-m%C3%B3dulo-en-npm-11ff8c1c699f",
+    "description": "Artículo de Medium sobre como crear tu propio paquete npm.",
+    "tags": [
+      "javascript",
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "CSSGram",
+    "image": "cssgram.svg",
+    "url": "https://una.github.io/CSSgram/",
+    "description": "Filtros CSS para imágenes estilo instagram.",
+    "tags": [
+      "css",
+      "image"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Custom Shape Dividers",
+    "image": "shapedivider.png",
+    "url": "https://www.shapedivider.app/",
+    "description": "Editor de formas para dividir secciones en formato SVG+CSS.",
+    "tags": [
+      "css",
+      "image",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "DaFont",
+    "image": "dafont.png",
+    "url": "https://www.dafont.com/es/",
+    "description": "Colección de fuentes gratuitas y de pago.",
+    "tags": [
+      "fonts"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Datatables",
+    "image": "datatables.png",
+    "url": "https://datatables.net/",
+    "description": "Biblioteca JS que mejora las tablas HTML (filtros, paginación, orden, búsqueda...)",
+    "tags": [
+      "javascript"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "datos.madrid",
+    "image": "madrid.png",
+    "url": "https://datos.madrid.es/portal/site/egob",
+    "description": "Catálogo de datos de la comunidad de Madrid.",
+    "tags": [
+      "api"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "deno",
+    "image": "deno.png",
+    "url": "https://deno.com/",
+    "description": "Free hosting para javascript serverless.",
+    "tags": [
+      "hosting",
+      "javascript",
+      "typescript"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Developer Roadmaps",
+    "image": "roadmaps.jpeg",
+    "url": "https://roadmap.sh/",
+    "description": "Roadmaps de aprendizaje para diferentes roles.",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Diawi",
+    "image": "diawi.jpg",
+    "url": "https://www.diawi.com/",
+    "description": "Comparte aplicaciones (.apk) de manera sencilla.",
+    "tags": [
+      "mobile"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "dolthub",
+    "image": "dolthub.png",
+    "url": "https://www.dolthub.com/",
+    "description": "Bases de datos con control de versiones, capa gratuita.",
+    "tags": [
+      "databases"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "DummyJSON",
+    "image": "dummyjson.jpeg",
+    "url": "https://dummyjson.com",
+    "description": "API con datos para identificación, usuarios, productos...",
+    "tags": [
+      "api",
+      "json"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "EF SET",
+    "image": "efset.png",
+    "url": "https://www.efset.org/",
+    "description": "Certificación de inglés gratuita y para Linkedin.",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Etsy",
+    "image": "etsy.png",
+    "url": "https://www.etsy.com/es",
+    "description": "Tienda de regalos.",
+    "tags": [
+      "shopping"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "FilePizza",
+    "image": "filepizza.png",
+    "url": "https://file.pizza/",
+    "description": "Comparte ficheros fácilmente.",
+    "tags": [
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Font Awesome",
+    "image": "fontawesome.png",
+    "url": "https://fontawesome.com/",
+    "description": "Iconos para tus sitios web.",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Font Squirrel",
+    "image": "font-squirrel.svg",
+    "url": "https://www.fontsquirrel.com/",
+    "description": "Colección de fuentes gratuitas.",
+    "tags": [
+      "fonts"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Fontsource",
+    "image": "fontsource.png",
+    "url": "https://fontsource.org/",
+    "description": "Fuentes open source.",
+    "tags": [
+      "fonts"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "FullCalendar",
+    "image": "fullcalendar.png",
+    "url": "https://fullcalendar.io/",
+    "description": "Calendario javascript, también para react, vue y angular.",
+    "tags": [
+      "javascript"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Google Fonts",
+    "image": "google-fonts.svg",
+    "url": "https://fonts.google.com/",
+    "description": "Fuentes de Google.",
+    "tags": [
+      "fonts"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Google Icons",
+    "image": "google-fonts.svg",
+    "url": "https://fonts.google.com/icons",
+    "description": "Librería de iconos by Google.",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "GSAP",
+    "image": "gsap.webp",
+    "url": "https://gsap.com/",
+    "description": "Te permite animar sin esfuerzo cualquier cosa que JS pueda tocar",
+    "tags": [
+      "javascript",
+      "animotion"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "ILoveIMG",
+    "image": "iloveimg.jpg",
+    "url": "https://www.iloveimg.com/",
+    "description": "Bienvenido a tu editor de fotos gratis.",
+    "tags": [
+      "image",
+      "tools"
+    ],
+    "favorite": true
+  },
+  {
+    "name": "ICONS8",
+    "image": "icons8.svg",
+    "url": "https://iconos8.es/icons",
+    "description": "Kit de iconos. Permite editar los colores, agregar texto...",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Ionicons",
+    "image": "ionicons.png",
+    "url": "https://ionic.io/ionicons",
+    "description": "Íconos de código abierto. Hechos a mano con cariño.",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "JSON Crack",
+    "image": "jsoncrack.jpg",
+    "url": "https://jsoncrack.com/editor",
+    "description": "Editor y visualizador JSON.",
+    "tags": [
+      "json",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "JSON Crack VS Code extension",
+    "image": "vscode.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode",
+    "description": "Extensión de JSON crack para VS code.",
+    "tags": [
+      "vs-code"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "kaggle",
+    "image": "kaggle.webp",
+    "url": "https://www.kaggle.com/learn",
+    "description": "Cursos de python, machine learning y sql.",
+    "tags": [
+      "learning",
+      "python"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "LDRS",
+    "image": "uniball.png",
+    "url": "https://uiball.com/ldrs/",
+    "description": "Loaders y spinners para proyectos web. Personalizables y en diferentes formatos.",
+    "tags": [
+      "javascript",
+      "css",
+      "tools"
+    ],
     "favorite": false
   },
   {
     "name": "learngitbranching.js.org",
+    "image": "learngitbranching.png",
     "url": "https://learngitbranching.js.org/",
     "description": "Curso básico e interactivo de git.",
-    "tags": ["formación"],
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Leonardo.AI",
+    "image": "leonardoai.webp",
+    "url": "https://leonardo.ai/",
+    "description": "Generación de imágenes con inteligencia artificial.",
+    "tags": [
+      "IA"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Linux Cheatsheet",
+    "image": "medium.png",
+    "url": "https://medium.com/@mr.cloudbuddy/linux-commands-l1-as-an-aws-devops-engineer-accustomed-to-completing-daily-tasks-on-3d85a2971067",
+    "description": "Artículo de Medium con apuntes de comandos Linux.",
+    "tags": [
+      "bash"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Live server",
+    "image": "vscode.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+    "description": "Ver cambios automáticamente en el navegador sin refrescar.",
+    "tags": [
+      "vs-code"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "LofiGirl Shop",
+    "image": "lofigirl.webp",
+    "url": "https://lofigirlshop.com/",
+    "description": "Tienda de artículos de Lofi Girl.",
+    "tags": [
+      "shopping"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "manz.dev",
+    "image": "manz-logo.png",
+    "url": "https://terminaldelinux.com/",
+    "description": "Portal con información útil.",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Meta Tags",
+    "image": "metatags.png",
+    "url": "https://metatags.io/",
+    "description": "Genera meta-tags de sitios web para la visualización en Google, Twitter, Linkedin...",
+    "tags": [
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Monaspace by github",
+    "image": "github.webp",
+    "url": "https://monaspace.githubnext.com/",
+    "description": "Fuente oficial de github.",
+    "tags": [
+      "fonts"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "musicForProgramming()",
+    "image": "musicforprogramming.png",
+    "url": "https://musicforprogramming.net",
+    "description": "Listas de música relajante tipo Lo-Fi. El diseño de la página es espectacular.",
+    "tags": [
+      "audio"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "NASA API",
+    "image": "nasa.png",
+    "url": "https://api.nasa.gov",
+    "description": "La API de la NASA.",
+    "tags": [
+      "api"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "neon",
+    "image": "neon.png",
+    "url": "https://neon.tech/",
+    "description": "Bases de datos en la nube con capa gratuita.",
+    "tags": [
+      "databases"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "NES.css",
+    "image": "nesscss.png",
+    "url": "https://nostalgic-css.github.io/NES.css/",
+    "description": "Framework CSS estilo Nintendo.",
+    "tags": [
+      "css"
+    ],
+    "favorite": true
+  },
+  {
+    "name": "Netlify",
+    "image": "netlify.png",
+    "url": "https://www.netlify.com/",
+    "description": "Plataforma de desarrollo que incluye servicios backend para aplicaciones web.",
+    "tags": [
+      "cloud",
+      "hosting"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Neumorphism.io",
+    "image": "neumorphism.png",
+    "url": "https://neumorphism.io/",
+    "description": "Generador de diseños neumórficos.",
+    "tags": [
+      "css",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Ngrok",
+    "image": "ngrok.svg",
+    "url": "https://ngrok.com/",
+    "description": "API flexible para una conectividad instantánea y segura en cualquier lugar, público o privado.",
+    "tags": [
+      "api",
+      "network"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "NullSafe Architect",
+    "image": "nullsafe.png",
+    "url": "https://www.youtube.com/user/acoronadoc",
+    "description": "Canal de Youtube con prácticas sobre devops y sistemas",
+    "tags": [
+      "learning",
+      "bash"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Open Full Stack",
+    "image": "fullstackopen.png",
+    "url": "https://fullstackopen.com/es/",
+    "description": "Master de full-stack gratuito (react, nodejs, typescript...).",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "pico",
+    "image": "picocss.png",
+    "url": "https://picocss.com/",
+    "description": "class-less library.",
+    "tags": [
+      "css"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Picsum",
+    "image": "lorempicsum.png",
+    "url": "https://picsum.photos",
+    "description": "Imágenes random o fijas de tamaño configurable para placeholders.",
+    "tags": [
+      "image",
+      "api"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Pulumi",
+    "image": "pulumi.png",
+    "url": "https://www.pulumi.com/",
+    "description": "Automatiza y administra infraestructura como código en varios lenguajes de programación..",
+    "tags": [
+      "cloud",
+      "framework"
+    ],
+    "favorite": true
+  },
+  {
+    "name": "Quickchart",
+    "image": "quickchart.svg",
+    "url": "https://quickchart.io",
+    "description": "Genera imágenes de gráficos con una API simple y abierta.",
+    "tags": [
+      "image",
+      "api",
+      "charts"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "QuickRef.ME",
+    "image": "quickref.png",
+    "url": "https://quickref.me/",
+    "description": "Cheatsheets de lenguajes de programación y otras herramientas.",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "quicktype",
+    "image": "quicktype.png",
+    "url": "https://quicktype.io",
+    "description": "Convierte JSON en un código atractivo y seguro en cualquier lenguaje de programación.",
+    "tags": [
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Render",
+    "image": "render.jpeg",
+    "url": "https://render.com/",
+    "description": "Cree, implemente y escale sus aplicaciones con una facilidad incomparable.",
+    "tags": [
+      "cloud",
+      "hosting"
+    ],
+    "favorite": true
+  },
+  {
+    "name": "Resend",
+    "image": "resend.png",
+    "url": "https://resend.com/",
+    "description": "Envío de emails vía API, capa gratuita.",
+    "tags": [
+      "api"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "REST Countries",
+    "image": "restcountries.png",
+    "url": "https://restcountries.com",
+    "description": "API de información de paises.",
+    "tags": [
+      "api"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Serverless Framework",
+    "image": "serverless.png",
+    "url": "https://www.serverless.com/",
+    "description": "Implementa APIs, tareas programadas, flujos de trabajo y aplicaciones basadas en eventos.",
+    "tags": [
+      "cloud",
+      "framework"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Sesame",
+    "image": "sesame.jpeg",
+    "url": "https://www.sesame.com/",
+    "description": "Practica conversaciones en inglés con una IA.",
+    "tags": [
+      "IA",
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "ShipFree",
+    "image": "shipfree.png",
+    "url": "https://shipfree.idee8.agency/",
+    "description": "Entorno para aplicaciones completo y gratuito.",
+    "tags": [
+      "framework"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Showdown",
+    "image": "showdownjs.png",
+    "url": "https://showdownjs.com/",
+    "description": "Conversor bidireccional de markdown a HTLM.",
+    "tags": [
+      "javascript",
+      "markdown"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Sillicon Valley Shop",
+    "image": "piedpiper.svg",
+    "url": "https://shop.hbo.com/collections/silicon-valley",
+    "description": "Tienda oficial de Sillicon Valley la serie.",
+    "tags": [
+      "shopping"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Simple.css",
+    "image": "simplecss.png",
+    "url": "https://simplecss.org/",
+    "description": "class-less library.",
+    "tags": [
+      "css"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Slazzer",
+    "image": "slazzer.png",
+    "url": "https://www.slazzer.com/",
+    "description": "Elimina el fondo de una imagen. Cuenta con API para integraciones vía programación.",
+    "tags": [
+      "image",
+      "api",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "soundraw",
+    "image": "soundraw.webp",
+    "url": "https://soundraw.io/",
+    "description": "Generación de música con inteligencia artificial.",
+    "tags": [
+      "IA"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "squid",
+    "image": "squid-cache.png",
+    "url": "http://www.squid-cache.org",
+    "description": "Ofrece un rico entorno de control de acceso, autorización y registro como proxy web.",
+    "tags": [
+      "network"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Squoosh",
+    "image": "squoosh.png",
+    "url": "https://squoosh.app/",
+    "description": "Optimización de imágenes.",
+    "tags": [
+      "image",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "SSH Remote",
+    "image": "vscode.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh",
+    "description": "Te permite editar código en un servidor remoto a través de una conexión SSH.",
+    "tags": [
+      "vs-code"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "stackedit",
+    "image": "stackedit.svg",
+    "url": "https://stackedit.io/app",
+    "description": "Editor web de markdown con visualización en tiempo real.",
+    "tags": [
+      "markdown",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Storybook",
+    "image": "storybook.svg",
+    "url": "https://storybook.js.org/",
+    "description": "Herramienta para documentar/crear componentes de UI.",
+    "tags": [
+      "framework"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "stripe",
+    "image": "stripe.png",
+    "url": "https://stripe.com/es",
+    "description": "Infraestructura financiera para proyectos.",
+    "tags": [
+      "shopping"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "supabase",
+    "image": "supabase.svg",
+    "url": "https://supabase.com/",
+    "description": "Alternativa open source a Firebase.",
+    "tags": [
+      "framework",
+      "cloud"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "supermaven",
+    "image": "supermaven.png",
+    "url": "https://supermaven.com/",
+    "description": "Parecido a github copilot.",
+    "tags": [
+      "IA"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "surge",
+    "image": "surge.svg",
+    "url": "https://surge.sh/",
+    "description": "Alojamiento gratuito para aplicaciones web.",
+    "tags": [
+      "hosting"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "SVG Repo",
+    "image": "svgrepo.webp",
+    "url": "https://svgrepo.com",
+    "description": "Busca, explora y edita los íconos o vectores gratuitos que mejor se adapten a tus proyectos.",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "svgl",
+    "image": "svgl.svg",
+    "url": "https://svgl.vercel.app/",
+    "description": "Librería de iconos SVG del gran pheralb.",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Terminal CSS",
+    "image": "terminalcss.png",
+    "url": "https://terminalcss.xyz/",
+    "description": "CSS framework para los amantes de la terminal.",
+    "tags": [
+      "css"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Tiempos de carga rápidos",
+    "image": "webdev.svg",
+    "url": "https://web.dev/fast/",
+    "description": "Técnicas para mejorar el rendimiento de un sitio web.",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "TinyMCE",
+    "image": "tiny.png",
+    "url": "https://www.tiny.cloud/",
+    "description": "WYSIWYG editor para web.",
+    "tags": [
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Top Linux commands",
+    "image": "medium.png",
+    "url": "https://vinodhakumara2681997.medium.com/top-linux-commands-and-tricks-for-devops-tasks-42cf93aa77e0",
+    "description": "Artículos de Medium de comandos Linux para DevOps.",
+    "tags": [
+      "bash"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "turso",
+    "image": "turso.png",
+    "url": "https://turso.tech/",
+    "description": "Bases de datos en la nube, con capa gratuita.",
+    "tags": [
+      "databases"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Typed.js",
+    "image": "typedjs.png",
+    "url": "https://mattboldt.github.io/typed.js/",
+    "description": "Biblioteca JS de animación de escritura.",
+    "tags": [
+      "javascript",
+      "animotion"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "typehero",
+    "image": "typehero.png",
+    "url": "https://typehero.dev/",
+    "description": "Aprende Typescript.",
+    "tags": [
+      "typescript",
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "UI Avatars",
+    "image": "uiavatars.png",
+    "url": "https://eu.ui-avatars.com/",
+    "description": "Generar avatares con iniciales de nombres.",
+    "tags": [
+      "image",
+      "api"
+    ],
+    "favorite": true
+  },
+  {
+    "name": "Vercel",
+    "image": "vercel.svg",
+    "url": "https://vercel.com/",
+    "description": "Infraestructura en la nube para crear una web más rápida y personalizada.",
+    "tags": [
+      "cloud",
+      "hosting"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Water.css",
+    "image": "watercss.png",
+    "url": "https://watercss.kognise.dev/",
+    "description": "class-less library.",
+    "tags": [
+      "css"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "web.dev",
+    "image": "webdev.svg",
+    "url": "https://web.dev/",
+    "description": "Cursos del equipo de Google Chrome.",
+    "tags": [
+      "learning"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "WebGradients",
+    "image": "webgradients.png",
+    "url": "https://webgradients.com",
+    "description": "Colección de gradientes chulos en formato PNG o CSS.",
+    "tags": [
+      "css",
+      "image"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "whatsmydns.net",
+    "image": "whatsmydns.png",
+    "url": "https://www.whatsmydns.net/",
+    "description": "Búsquedas DNS para verificar la IP de un dominio y la información del registro.",
+    "tags": [
+      "tools",
+      "network"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Yesicon",
+    "image": "yesicon.png",
+    "url": "https://yesicon.app/",
+    "description": "Conjuntos de iconos open source y gratis.",
+    "tags": [
+      "icons"
+    ],
     "favorite": false
   }
 ]
