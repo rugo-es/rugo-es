@@ -1057,10 +1057,10 @@
     "favorite": false
   },
   {
-    "name": "TODO",
+    "name": "Todo Tree",
     "image": "vscode.png",
     "url": "https://marketplace.visualstudio.com/items/?itemName=Gruntfuggly.todo-tree",
-    "description": "Herramienta para ver de manera visual y rápida las notas de TODO y FIXME del espacio de trabajo.",
+    "description": "Extensión para ver de manera visual las notas de TODO y FIXME.",
     "tags": [
       "vs-code"
     ],
