@@ -1057,6 +1057,16 @@
     "favorite": false
   },
   {
+    "name": "TODO",
+    "image": "vscode.png",
+    "url": "https://marketplace.visualstudio.com/items/?itemName=Gruntfuggly.todo-tree",
+    "description": "Herramienta para ver de manera visual y rápida las notas de TODO y FIXME del espacio de trabajo.",
+    "tags": [
+      "vs-code"
+    ],
+    "favorite": false
+  },
+  {
     "name": "Top Linux commands",
     "image": "medium.png",
     "url": "https://vinodhakumara2681997.medium.com/top-linux-commands-and-tricks-for-devops-tasks-42cf93aa77e0",

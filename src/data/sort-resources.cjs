@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const json = fs.readFileSync('resources.json', 'utf-8');
+const json = fs.readFileSync('./resources.json', 'utf-8');
 const resources = JSON.parse(json);
 
 resources.sort((a, b) => a.name.localeCompare(b.name));
