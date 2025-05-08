@@ -3,7 +3,7 @@ title: 'Pulumi'
 description: 'Primeros pasos con esta herramienta de IaC.'
 pubDate: 2025-02-06
 image:
-    url: '/blog/pulumi.svg'
+    url: '/blog/pulumi.png'
     alt: 'Pulumi logo'
     bgColor: '#371a47'
 tags: ["pulumi", "python", "gcp", "cloud", "iac"]

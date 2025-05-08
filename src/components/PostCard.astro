@@ -8,7 +8,9 @@ const { post } = Astro.props;
     <div style={`background-image: url(${post.data.image.url}); background-color: ${post.data.image.bgColor}`}></div>
     <h4>{post.data.title}</h4>
     <h4>{post.data.description}</h4>
+    <!-- 
     <FormattedDate date={new Date(post.data.pubDate)} />
+     -->
   </a>
 </li>
 
