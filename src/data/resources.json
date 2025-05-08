@@ -332,6 +332,16 @@
     "favorite": false
   },
   {
+    "name": "Dev Containers",
+    "image": "vscode.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers",
+    "description": "Trabaja con dev containers en visual studio code.",
+    "tags": [
+      "vs-code"
+    ],
+    "favorite": false
+  },
+  {
     "name": "Developer Roadmaps",
     "image": "roadmaps.jpeg",
     "url": "https://roadmap.sh/",
@@ -609,6 +619,16 @@
     "favorite": false
   },
   {
+    "name": "Material Icon Theme",
+    "image": "vscode.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Archety.material-icons",
+    "description": "Iconos para los ficheros de visual studio code.",
+    "tags": [
+      "vs-code"
+    ],
+    "favorite": false
+  },
+  {
     "name": "Meta Tags",
     "image": "metatags.png",
     "url": "https://metatags.io/",
@@ -825,6 +845,16 @@
     "description": "API de información de paises.",
     "tags": [
       "api"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "RunSQL",
+    "image": "runsql.png",
+    "url": "https://runsql.com/",
+    "description": "Ejecuta sentencias SQL para MySQL, Postgres y SQL Server.",
+    "tags": [
+      "databases"
     ],
     "favorite": false
   },
