@@ -9,7 +9,7 @@ const resources = data.filter((resource) => resource.favorite);
 <section>
   <h2>Recursos favoritos</h2>
   <ResourceCardsContainer>
-    {resources.map((resource) => <ResourceCard resource={resource} />)}
+    {resources.sort((a, b) => a.name.localeCompare(b.name)).map((resource) => <ResourceCard resource={resource} />)}
   </ResourceCardsContainer>
 </section>
 

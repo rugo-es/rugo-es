@@ -29,7 +29,7 @@ const tags = Array.from(tagsSet).sort((a, b) => a.localeCompare(b));
     {[...tags].map((tag) => <button class="filterTag" data-filter={tag}>{tag}</button>)}
   </div>
   <ResourceCardsContainer>
-    {resources.map((resource) => <ResourceCard resource={resource} />)}
+    {resources.sort((a, b) => a.name.localeCompare(b.name)).map((resource) => <ResourceCard resource={resource} />)}
   </ResourceCardsContainer>
 </Layout>
 

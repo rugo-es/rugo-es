@@ -244,18 +244,6 @@
     "favorite": false
   },
   {
-    "name": "codi.link",
-    "image": "midudev.png",
-    "url": "https://codi.link/",
-    "description": "Editor de HTML, CSS y JS online",
-    "tags": [
-      "css",
-      "javascript",
-      "tools"
-    ],
-    "favorite": false
-  },
-  {
     "name": "Cómo crear un módulo en NPM",
     "image": "medium.png",
     "url": "https://medium.com/@muzk/c%C3%B3mo-crear-un-m%C3%B3dulo-en-npm-11ff8c1c699f",
@@ -1209,6 +1197,29 @@
     "description": "Conjuntos de iconos open source y gratis.",
     "tags": [
       "icons"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "JSFiddle",
+    "image": "jsfiddle.png",
+    "url": "https://jsfiddle.net/",
+    "description": "Editor de HTML, CSS y JS online",
+    "tags": [
+      "css",
+      "javascript",
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Pixilart",
+    "image": "pixilart.png",
+    "url": "https://www.pixilart.com/",
+    "description": "Editor para crear imágenes tipo pixelart.",
+    "tags": [
+      "image",
+      "tools"
     ],
     "favorite": false
   }
