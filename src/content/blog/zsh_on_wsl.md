@@ -95,7 +95,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 2. Instala un tema (Powerlevel10k)
 
-Otros temas: (https://github.com/ohmyzsh/ohmyzsh/wiki/themes).
+<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/themes" target="_blank" rel="noopener noreferrer">Más temas para Oh My Zsh</a> 
 
 ```sh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
