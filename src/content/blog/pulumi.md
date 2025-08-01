@@ -349,7 +349,7 @@ pulumi config set --secret <SECRET_NAME> "<VALUE>"
 Usa el secret en el script
 
 ```python
-variable = config.require_secret("<SECRET_NAME>")
+variable = pulumi.Config().require_secret("<SECRET_NAME>")
 ```
 
 Elimina un sercret

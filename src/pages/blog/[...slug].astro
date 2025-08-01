@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 const post: any = Astro.props;
-console.log(post)
+// console.log(post)
 const { Content } = await render(post);
 ---
 <BlogLayout>
