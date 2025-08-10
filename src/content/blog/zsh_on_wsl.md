@@ -88,7 +88,7 @@ chsh -s $(which zsh)
 
 Oh My Zsh es una colección de configuraciones, temas y complementos para Zsh que mejora la experiencia en la línea de comandos, haciéndola más productiva, personalizable y atractiva visualmente.
 
-1. Instala OhMyZsh
+1. Instala Oh My Zsh
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -227,7 +227,7 @@ source ~/.p10k.zsh
 
 ## 📌 Cambiar la terminal por defecto en vscode
 
-Control + Shift + P  
+**`Ctrl + Shift + P`**  
 Terminal: Select Default Profile 
 
 
@@ -235,11 +235,11 @@ Terminal: Select Default Profile
 
 Dentro de el sistema de Ubuntu se montan particiones que enlazan directamente a los archivos de Windows, normalmente `/mnt/c` o `/mnt/d`, para poder disfrutar de nuestra configuración de git del equipo host dentro de Ubuntu hay que hacer algunas configuraciones extras.
 
-1. Enlazar los dirctorios `.gitconfig` y `.ssh` al directorio home de tu usuario
+1. Copia las claves y configuración ssh a tu entorno de Ubuntu
 
 ```sh
 ln -s /mnt/c/Users/$USUARIO/.gitconfig ~/.gitconfig
-ln -s /mnt/c/Users/$USUARIO/.ssh ~/.ssh
+cp /mnt/c/Users/$USUARIO/.ssh/* ~/.ssh/
 ``` 
 
 2. Para no tener problemas con los saltos de líneas (^M)

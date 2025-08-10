@@ -3,3 +3,7 @@
   -webkit-text-fill-color: #0000;
   -webkit-background-clip: text;
 }
+
+code {
+  font-size: 16px;
+}
