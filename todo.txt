@@ -1,9 +1,3 @@
-- [x] Repasar entradas activas
-- [x] Espacios tras iconos en entradas al blog
-- [x] Emojis en navbar
-- [ ] README como un pro para que se vea bien en github
-- [ ] Agregar a recursos excalidraw y draw.io
-- [ ] Repasar etiquetas de recursos
 - [ ] Custom bootstrap 
 - [ ] gsap
 - [ ] Cambiar estilo de entradas al blog (freecodecmap)

@@ -12,6 +12,11 @@ Nacido y crecido en Madrid, actualmente viviendo en Logroño (La Rioja). Llevo m
 
 ## 🕵️‍♂️ Visita mi LinkedIn o enviame un email (solo si quieres...)
 
+<!-- 
+Mejora tu README: https://platzi.com/blog/aprende-como-tener-el-mejor-readme-en-tu-perfil-de-github/
+Badges: https://github.com/alexandresanlim/Badges4-README.md-Profile
+-->
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruben-gonzalez-martin/) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubengm410@gmail.com)
 
 ## Algunas tecnologías que uso

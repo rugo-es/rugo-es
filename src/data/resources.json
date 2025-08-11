@@ -13,16 +13,6 @@
     "favorite": false
   },
   {
-    "name": "Airtap - Free UI sounds",
-    "image": "airtap.png",
-    "url": "https://airtap.io/w/uisounds",
-    "description": "Sonidos gratis para uso en interfaces de usuario (click, complete, cancel...).",
-    "tags": [
-      "audio"
-    ],
-    "favorite": false
-  },
-  {
     "name": "AlbertoCoronado.com",
     "image": "albertcoronado.jpeg",
     "url": "https://www.albertcoronado.com/",
@@ -135,7 +125,6 @@
     "description": "Verificador de tamaño de los paquetes npm.",
     "tags": [
       "javascript",
-      "typescript",
       "tools"
     ],
     "favorite": false
@@ -147,7 +136,6 @@
     "description": "Verificador de paquetes npm.",
     "tags": [
       "javascript",
-      "typescript",
       "tools"
     ],
     "favorite": false
@@ -216,20 +204,6 @@
     "tags": [
       "cloud",
       "databases"
-    ],
-    "favorite": false
-  },
-  {
-    "name": "Codédex",
-    "image": "codedex.png",
-    "url": "https://www.codedex.io/",
-    "description": "Cursos de programación en un entorno de juego.",
-    "tags": [
-      "learning",
-      "python",
-      "databases",
-      "javascript",
-      "css"
     ],
     "favorite": false
   },
@@ -314,8 +288,7 @@
     "description": "Free hosting para javascript serverless.",
     "tags": [
       "hosting",
-      "javascript",
-      "typescript"
+      "javascript"
     ],
     "favorite": false
   },
@@ -472,16 +445,6 @@
     "favorite": false
   },
   {
-    "name": "ICONS8",
-    "image": "icons8.svg",
-    "url": "https://iconos8.es/icons",
-    "description": "Kit de iconos. Permite editar los colores, agregar texto...",
-    "tags": [
-      "icons"
-    ],
-    "favorite": false
-  },
-  {
     "name": "ILoveIMG",
     "image": "iloveimg.jpg",
     "url": "https://www.iloveimg.com/",
@@ -547,7 +510,7 @@
     "favorite": false
   },
   {
-    "name": "learngitbranching.js.org",
+    "name": "learngitbranching",
     "image": "learngitbranching.png",
     "url": "https://learngitbranching.js.org/",
     "description": "Curso básico e interactivo de git.",
@@ -726,7 +689,8 @@
     "url": "https://fullstackopen.com/es/",
     "description": "Master de full-stack gratuito (react, nodejs, typescript...).",
     "tags": [
-      "learning"
+      "learning",
+      "javascript"
     ],
     "favorite": false
   },
@@ -879,17 +843,6 @@
     "favorite": false
   },
   {
-    "name": "Showdown",
-    "image": "showdownjs.png",
-    "url": "https://showdownjs.com/",
-    "description": "Conversor bidireccional de markdown a HTLM.",
-    "tags": [
-      "javascript",
-      "markdown"
-    ],
-    "favorite": false
-  },
-  {
     "name": "Sillicon Valley Shop",
     "image": "piedpiper.svg",
     "url": "https://shop.hbo.com/collections/silicon-valley",
@@ -968,7 +921,6 @@
     "url": "https://stackedit.io/app",
     "description": "Editor web de markdown con visualización en tiempo real.",
     "tags": [
-      "markdown",
       "tools"
     ],
     "favorite": false
@@ -1121,8 +1073,8 @@
     "url": "https://typehero.dev/",
     "description": "Aprende Typescript.",
     "tags": [
-      "typescript",
-      "learning"
+      "learning",
+      "javascript"
     ],
     "favorite": false
   },
@@ -1222,5 +1174,48 @@
       "tools"
     ],
     "favorite": false
+  },
+  {
+    "name": "Excalidraw",
+    "image": "excalidraw.png",
+    "url": "https://excalidraw.com/",
+    "description": "Pizarra para dibujar con look sencillo y trazos a mano alzada.",
+    "tags": [
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Draw.io",
+    "image": "draw-io.png",
+    "url": "https://app.diagrams.net/",
+    "description": "Herramienta web para crear diagramas de flujo, mapas mentales y gráficos.",
+    "tags": [
+      "tools"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "Shields.io",
+    "image": "shields-io.png",
+    "url": "https://shields.io/",
+    "description": "Servicio web que genera badges personalizables, muy usados en README de GitHub.",
+    "tags": [
+      "tools"
+    ],
+    "favorite": false
   }
+  ,
+  {
+    "name": "Simple icons",
+    "image": "simpleicons.png",
+    "url": "https://simpleicons.org/",
+    "description": "Iconos en PNG y SVG sobre todo de lenguajes de programacióny otras marcas.",
+    "tags": [
+      "icons"
+    ],
+    "favorite": false
+  }
+
+  
 ]
