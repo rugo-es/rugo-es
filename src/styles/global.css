@@ -2,6 +2,10 @@
   margin-right: 6px;
 }
 
+section.post {
+  max-width: 1000px;
+}
+
 li.post-card {
 
   list-style: none;
@@ -25,8 +29,13 @@ li.resource-card {
   width: 100%;
   max-width: 380px;
   border: 1px solid rgb(68, 68, 68);
+  list-style: none;
 
   img.resource-icon {
     height: 30px; 
   }
+}
+
+div#filterTags {
+  max-width: 800px;
 }

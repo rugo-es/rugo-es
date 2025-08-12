@@ -1,18 +1,11 @@
 ---
 import Layout from "./Layout.astro";
+import "../styles/global.css";
 import "../styles/post.css";
 ---
 
 <Layout>
-  <section class="post">
+  <section class="container my-4 mx-auto p-3 post">
     <slot />
   </section>
 </Layout>
-
-<style>
-  section {
-    margin: 80px auto;
-    padding: 20px;
-    max-width: 1000px;
-  }
-</style>

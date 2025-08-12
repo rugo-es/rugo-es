@@ -15,16 +15,18 @@ interface Props {
 const { resource } = Astro.props;
 ---
 
-<li class="d-flex flex-column rounded p-2 resource-card" data-category={resource.tags}>
-  <div class="d-flex justify-content-between align-items-center gap-1">
-    <a class="fw-bold" href={resource.url} target="_blank">
-      {resource.name}
-    </a>
-    <img src={"/resources/"+resource.image} class="align-self-start rounded-1 m-0 resource-icon">
-  </div>
-  <span class="flex-grow-1 small my-1">{resource.description}</span>
-  <div>
-    {resource.tags && resource.tags.map((tag: any) => <Badge text={tag} />)}
+<li class="rounded p-2 resource-card" data-category={resource.tags}>
+  <div style="d-flex flex-column">
+    <div class="d-flex justify-content-between align-items-center gap-1">
+      <a class="fw-bold" href={resource.url} target="_blank">
+        {resource.name}
+      </a>
+      <img src={"/resources/"+resource.image} class="align-self-start rounded-1 m-0 resource-icon">
+    </div>
+    <span class="flex-grow-1 small my-1">{resource.description}</span>
+    <div>
+      {resource.tags && resource.tags.map((tag: any) => <Badge text={tag} />)}
+    </div>
   </div>
 </li>
 

@@ -14,18 +14,8 @@ const tags = Array.from(tagsSet).sort((a, b) => a.localeCompare(b));
   <HeaderPage
     title="Recursos"
     subtitle="Enlaces a herramientas, servicios y proyectos interesantes"
-  />
-    <!-- 
-    <ul id="item-list">
-      {items.map(item => (
-        <li key={item.id} data-category={item.category}>
-          {item.name} ({item.category})
-        </li>
-      ))}
-    </ul>
--->
-  
-  <div id="filterTags">
+  />  
+  <div id="filterTags" class="d-flex justify-content-center flex-wrap gap-1 p-3 m-auto">
     {[...tags].map((tag) => <button class="filterTag" data-filter={tag}>{tag}</button>)}
   </div>
   <ResourceCardsContainer>
@@ -35,7 +25,7 @@ const tags = Array.from(tagsSet).sort((a, b) => a.localeCompare(b));
 
 <script type="module">
   const filterItems = document.querySelectorAll('#filterTags .filterTag');
-  const items = document.querySelectorAll('ul.resourceCardsContainer li');
+  const items = document.querySelectorAll('ul#resourcesCardContainer li');
   filterItems.forEach(filterItem => {
     filterItem.addEventListener('click', () => {
       const filter = filterItem.dataset.filter;
@@ -50,14 +40,3 @@ const tags = Array.from(tagsSet).sort((a, b) => a.localeCompare(b));
     });
   });
 </script>
-
-<style>
-  div {
-    padding: 40px 60px;
-    max-width: 600px;
-    margin: 80px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-</style>
