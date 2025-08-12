@@ -8,21 +8,9 @@ const allPosts = (await getCollection("blog")).sort(
 )
 ---
 
-<section>
-  <h2>Últimas entradas al blog</h2>
+<section class="pt-4">
+  <h2 class="text-center pt-4">Últimas entradas al blog</h2>
   <PostCardsContainer>
     {allPosts.map((post: any) => <PostCard post={post} />)}
   </PostCardsContainer>
 </section>
-
-<style>
-  section {
-    padding: 50px 0;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin: 50px 20px;
-  }
-</style>
