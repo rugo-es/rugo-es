@@ -15,8 +15,8 @@ const post: any = Astro.props;
 const { Content } = await render(post);
 ---
 <BlogLayout>
-  <img src={post.data.image.url} />
-  <h1>{post.data.title}</h1>
-  <h2>{post.data.description}</h2>
+  <img class="rounded" src={post.data.image.url} />
+  <h1 class="mt-3">{post.data.title}</h1>
+  <h4 class="mt-3 mb-4">{post.data.description}</h4>
   <Content />
 </BlogLayout>
