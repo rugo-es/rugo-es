@@ -1,25 +1,18 @@
 - [x] Arreglar filtro de resources
 - [x] Revisar los CSS
-- [ ] Normalizar imagenes
-- [ ] Error: astro:content
-- [ ] Custom navbar
-- [ ] Dark/Light mode
-- [ ] Probar Monospace (Github font)
+- [x] Normalizar imagenes
+- [x] Error: astro:content
+- [x] Custom navbar
+- [x] Favicon pixilart
+- [x] Dark/Light mode
+- [ ] Bootstrap icons
+- [ ] Custom bootstrap
 - [ ] Particles js
 - [ ] En los enlaces dentro de las entradas del blog (smooth scrolling)
+- [ ] Badges para los tags de resources
 - [ ] Mejorar diseño de las tarjetas (resources)
 - [ ] Mejorar diseño de las entradas del blog
-- [ ] Custom bootstrap
 - [ ] gsap
-
-- Tutorial de instalacion de Bootstrap en Astro
-
-https://www.drsys.de/use-bootstrap-with-astro/
-
-problema con sass:
-package.json
-"devDependencies": {
-  "sass": "1.62.1"
-}
-
-- Para comandos de linux revisa los resources que hay dos 3 sitios (manzdev, freecodecamp...)
+- [ ] Probar Monospace (Github font)
+- [ ] Para comandos de linux revisa los resources que hay dos 3 sitios (manzdev, freecodecamp...)
+- [ ] Menu de hamburguesa: https://webflow.com/made-in-webflow/website/tricks-hamburgers

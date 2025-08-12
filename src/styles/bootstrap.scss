@@ -2,3 +2,13 @@ $font-family-sans-serif: 'Roboto Mono', monospace;
 $spacer: 2rem;
 
 @import 'bootstrap/scss/bootstrap';
+
+[data-bs-theme="light"] {
+  --hero-bg-image: url("/sky.jpg");
+  --nav-bg-color: rgba(219, 219, 219, 0.95);
+}
+
+[data-bs-theme="dark"] {
+  --hero-bg-image: url("/night.jpg");
+  --nav-bg-color: rgba(0, 0, 0, 0.95);
+}
