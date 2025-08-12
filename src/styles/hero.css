@@ -1,0 +1,24 @@
+section.hero {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/014/290/125/original/abstract-dark-blue-purple-frame-with-flying-glittering-digital-hi-tech-particles-with-blur-effect-and-bokeh-on-black-background-screensaver-beautiful-animation-in-high-resolution-4k-free-video.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100svh;
+
+  h1 {
+    font-family: 'Bytesized', monospace;
+    font-size: 280px; 
+    width: 525px; 
+    line-height: 270px;
+    overflow: hidden;
+    /* gradient */
+    background-image: linear-gradient(92deg, #4947ac 10%, #b34888 60%, #cb8439);
+    -webkit-text-fill-color: #0000;
+    -webkit-background-clip: text;
+
+    @media (max-width: 576px) {
+      font-size: 140px;
+      width: 260px;
+      line-height: 120px;
+    }
+  }
+}

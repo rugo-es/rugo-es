@@ -6,21 +6,9 @@ import data from "../data/resources.json";
 const resources = data.filter((resource) => resource.favorite);
 ---
 
-<section>
-  <h2>Recursos favoritos</h2>
+<section class="pt-4">
+  <h2 class="text-center pt-4">Recursos favoritos</h2>
   <ResourceCardsContainer>
     {resources.sort((a, b) => a.name.localeCompare(b.name)).map((resource) => <ResourceCard resource={resource} />)}
   </ResourceCardsContainer>
 </section>
-
-<style>
-  section {
-    padding: 50px 0 150px 0;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 50px;
-  }
-</style>

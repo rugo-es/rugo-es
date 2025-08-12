@@ -1,14 +1,32 @@
-.gradient {
-  background-image: linear-gradient(92deg, #4947ac 10%, #b34888 60%, #cb8439);
-  -webkit-text-fill-color: #0000;
-  -webkit-background-clip: text;
-}
-
-code {
-  font-size: 16px;
-  font-family:  "Roboto Mono", monospace;
-}
-
 .emoji {
   margin-right: 6px;
+}
+
+li.post-card {
+
+  list-style: none;
+  border: 1px solid grey;
+
+  .post-card-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 320px;
+    height: 200px;
+
+    @media (max-width: 576px) {
+      min-width: 120px;
+    }
+
+  }
+}
+
+li.resource-card {
+  width: 100%;
+  max-width: 380px;
+  border: 1px solid rgb(68, 68, 68);
+
+  img.resource-icon {
+    height: 30px; 
+  }
 }
