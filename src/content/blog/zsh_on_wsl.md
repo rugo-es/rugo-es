@@ -5,7 +5,7 @@ pubDate: 2025-08-01
 image:
     url: '/blog/zsh_on_wsl.png'
     alt: 'zsh and ohmyzsh logo.'
-    bgColor: '#293036'
+    bgColor: '#111211'
 tags: ["bash", "ubuntu", "shell", "servidor"]
 ---
 

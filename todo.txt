@@ -1,5 +1,6 @@
 - [x] Arreglar filtro de resources
-- [ ] Revisar los CSS
+- [x] Revisar los CSS
+- [ ] Normalizar imagenes
 - [ ] Error: astro:content
 - [ ] Custom navbar
 - [ ] Dark/Light mode

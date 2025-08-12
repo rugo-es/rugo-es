@@ -3,9 +3,9 @@ title: 'bash cheatsheet'
 description: 'Comandos básicos'
 pubDate: 2025-01-15
 image:
-    url: '/blog/cheatsheet_bash.svg'
+    url: '/blog/cheatsheet_bash.png'
     alt: 'Bash icon.'
-    bgColor: '#293036'
+    bgColor: '#dd4814'
 tags: ["bash", "ubuntu", "shell", "servidor"]
 ---
 

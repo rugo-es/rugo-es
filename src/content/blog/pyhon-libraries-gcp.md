@@ -5,7 +5,7 @@ pubDate: 2025-05-08
 image:
     url: '/blog/python-library-artifact-registry.png'
     alt: 'Pulumi logo'
-    bgColor: '#201010'
+    bgColor: '#201818'
 tags: ["python", "gcp", "artifact-registry"]
 ---
 
