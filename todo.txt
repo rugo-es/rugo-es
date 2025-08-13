@@ -11,13 +11,19 @@
 - [x] Aislar los scripts
 - [x] Fix: listar recursos (última fila)
 - [x] Badges para los tags de resources
-- [ ] Iconos del footer de bootsrtap icons (test)
-- [ ] Revisar navegacion movil, que no quede el menu abierto
-- [ ] Custom bootstrap
+- [x] Iconos del footer de bootsrtap icons (test)
+- [x] Revisar navegacion movil, que no quede el menu abierto
+- [ ] Custom bootstrap (Space theme)
+    - colores primario y secundario no son los textos
+    - colores para los fondos y el texto
+    - colores para la barra de navegación?¿
+    - colores originales
+    - En la navegacion movil el fondo transparente puede causar confusion en la versión movil
+    - colores de los iconos del footer
 - [ ] Particles js
 - [ ] En los enlaces dentro de las entradas del blog (smooth scrolling)
 - [ ] Mejorar diseño de las tarjetas (resources) (row, row-gap)
-- [ ] Mejorar diseño de las entradas del blog
+- [ ] Mejorar diseño de las entradas del blog (https://css-tricks.com/)
 - [ ] gsap
 - [ ] Probar Monospace (Github font)
 - [ ] Para comandos de linux revisa los resources que hay dos 3 sitios (manzdev, freecodecamp...)

@@ -16,11 +16,11 @@ const navLinks = [
         <img class="me-1" src="/favicon.png" alt="Logo" height="100%">
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button id="navBtnCollapse" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationCollapse" aria-controls="navigationCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navigationCollapse">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0 column-gap-3">
           {navLinks.map(link => (
             <li class="nav-item">

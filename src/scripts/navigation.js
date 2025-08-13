@@ -11,6 +11,7 @@
         } else {
             navbar.classList.remove('scrolled');
         }
+        closeNavMenu()
     })
 })()
 
@@ -52,5 +53,19 @@ function setIcon(theme, init) {
     }
 }
 
+/* Close mobile navigation events */
+document.addEventListener('click', (event) => {
+    if (event.target.classList.contains('bi-sun-fill') 
+    || event.target.classList.contains('bi-moon-fill')) {
+        return;    
+    }
+    closeNavMenu();
+})
 
-
+function closeNavMenu() {
+    const menu = document.querySelector('.navbar-collapse');
+    const btnCollapse = document.getElementById('navBtnCollapse')
+    if(menu.classList.contains('show')){
+        btnCollapse.click()
+    }
+}
