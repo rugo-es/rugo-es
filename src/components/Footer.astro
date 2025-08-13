@@ -4,8 +4,8 @@ import githubIcon from "../assets/github.svg";
 import gmailIcon from "../assets/gmail.svg";
 ---
 
-<footer>
-  <div class="social-icons">
+<footer class="py-3 border-top border-2">
+  <div class="w-100 d-flex align-item-center justify-content-center gap-4">
     <a href="https://www.linkedin.com/in/ruben-gonzalez-martin/" target="_blank">
       <img width="48" height="48" src={linkedinIcon.src} alt="linkedin" />
     </a>
@@ -16,27 +16,5 @@ import gmailIcon from "../assets/gmail.svg";
       <img width="48" height="48" src={githubIcon.src} alt="github" />
     </a>
   </div>
-  <h6>rugo@2025</h6>
-</footer>
-
-  <style>
-    footer {
-      border-top: 1px solid grey;
-      padding: 20px 0;
-    }
-
-    .social-icons {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 40px;
-    }
-
-    h6 {
-      font-size: 1rem;
-      text-align: center;
-      margin: 10px 0;
-    }
-  </style>
+  <h6 class="text-center mt-3 mb-4">rugo@2025</h6>
 </footer>

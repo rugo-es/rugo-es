@@ -11,10 +11,9 @@ section.hero {
     line-height: 270px;
     overflow: hidden;
     /* gradient */
-    background-image: linear-gradient(92deg, #4947ac 10%, #b34888 60%, #cb8439);
+    background-image: linear-gradient(92deg, #4947ac 10%, #b34888 45%, #d86b39 75%, #cb8439);
     -webkit-text-fill-color: #0000;
     -webkit-background-clip: text;
-
     @media (max-width: 576px) {
       font-size: 140px;
       width: 260px;

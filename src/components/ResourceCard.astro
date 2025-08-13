@@ -1,6 +1,4 @@
 ---
-import Badge from "./Badge.astro";
-
 interface Props {
   resource: {
     name: string;
@@ -25,7 +23,7 @@ const { resource } = Astro.props;
     </div>
     <span class="flex-grow-1 small my-1">{resource.description}</span>
     <div>
-      {resource.tags && resource.tags.map((tag: any) => <Badge text={tag} />)}
+      {resource.tags && resource.tags.map((tag: any) => <span class="badge text-bg-primary me-1">{tag}</span>)}
     </div>
   </div>
 </li>

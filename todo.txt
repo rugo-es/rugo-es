@@ -5,6 +5,9 @@
 - [x] Custom navbar
 - [x] Favicon pixilart
 - [x] Dark/Light mode
+- [x] Revisar css de los componentes
+- [x] Favicon con los colores del gradient
+- [ ] Aislar los scripts
 - [ ] Bootstrap icons
 - [ ] Custom bootstrap
 - [ ] Particles js
