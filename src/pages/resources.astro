@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 import HeaderPage from "../components/HeaderPage.astro";
 import ResourceCardsContainer from "../components/ResourceCardsContainer.astro";
 import ResourceCard from "../components/ResourceCard.astro";
-import Badge from "../components/Badge.astro";
 import resources from "../data/resources.json";
 
 const tagsSet = new Set(resources.flatMap((resource) => resource.tags ?? []));
@@ -15,7 +14,7 @@ const tags = Array.from(tagsSet).sort((a, b) => a.localeCompare(b));
     title="Recursos"
     subtitle="Enlaces a herramientas, servicios y proyectos interesantes"
   />  
-  <div id="filterTags" class="d-flex justify-content-center flex-wrap gap-1 p-3 m-auto">
+  <div id="filterTags" class="container d-flex justify-content-center flex-wrap gap-1 p-3 m-auto">
     {[...tags].map((tag) => <button class="filterTag" data-filter={tag}>{tag}</button>)}
   </div>
   <ResourceCardsContainer>
@@ -23,20 +22,7 @@ const tags = Array.from(tagsSet).sort((a, b) => a.localeCompare(b));
   </ResourceCardsContainer>
 </Layout>
 
-<script type="module">
-  const filterItems = document.querySelectorAll('#filterTags .filterTag');
-  const items = document.querySelectorAll('ul#resourcesCardContainer li');
-  filterItems.forEach(filterItem => {
-    filterItem.addEventListener('click', () => {
-      const filter = filterItem.dataset.filter;
-      items.forEach(item => {
-        const itemCategory = item.dataset.category;
-        if (itemCategory !== undefined && itemCategory.split(',').includes(filter)) {
-          item.style.display = '';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-    });
-  });
+<script>
+  import '@/scripts/resources';
 </script>
+

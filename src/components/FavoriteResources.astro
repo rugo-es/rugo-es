@@ -1,8 +1,8 @@
 ---
-import ResourceCardsContainer from "../components/ResourceCardsContainer.astro";
-import ResourceCard from "../components/ResourceCard.astro";
+import ResourceCardsContainer from "@/components/ResourceCardsContainer.astro";
+import ResourceCard from "@/components/ResourceCard.astro";
 
-import data from "../data/resources.json";
+import data from "@/data/resources.json";
 const resources = data.filter((resource) => resource.favorite);
 ---
 

@@ -1,6 +1,6 @@
 ---
-import PostCard from "../components/PostCard.astro"
-import PostCardsContainer from "../components/PostCardsContainer.astro"
+import PostCard from "@/components/PostCard.astro"
+import PostCardsContainer from "@/components/PostCardsContainer.astro"
 
 import { getCollection } from "astro:content";
 const allPosts = (await getCollection("blog")).sort(

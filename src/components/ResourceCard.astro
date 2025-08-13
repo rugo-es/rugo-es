@@ -13,8 +13,8 @@ interface Props {
 const { resource } = Astro.props;
 ---
 
-<li class="rounded p-2 resource-card" data-category={resource.tags}>
-  <div style="d-flex flex-column">
+<li class="col-12 col-md-6 col-lg-4 p-2" data-category={resource.tags}>
+  <div class="h-100 d-flex flex-column border rounded p-2">
     <div class="d-flex justify-content-between align-items-center gap-1">
       <a class="fw-bold" href={resource.url} target="_blank">
         {resource.name}

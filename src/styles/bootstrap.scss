@@ -1,7 +1,9 @@
 $font-family-sans-serif: 'Roboto Mono', monospace;
 $spacer: 2rem;
 
+@import 'bootstrap-icons/font/bootstrap-icons.css';
 @import 'bootstrap/scss/bootstrap';
+
 
 [data-bs-theme="light"] {
   --hero-bg-image: url("/sky.jpg");

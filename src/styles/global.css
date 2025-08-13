@@ -7,17 +7,16 @@
   background-color: var(--nav-bg-color);
 }
 
-.icon {
-  padding: 1px 1px 3px 1px;;
+.theme-icon {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.fade-out {
+.theme-icon-fade-out {
   opacity: 0;
   transform: rotate(90deg);
 }
 
-.fade-in {
+.theme-icon-fade-in {
   opacity: 1;
   transform: rotate(0deg);
 }
@@ -53,15 +52,8 @@ li.post-card {
   }
 }
 
-li.resource-card {
-  width: 100%;
-  max-width: 380px;
-  border: 1px solid rgb(68, 68, 68);
-  list-style: none;
-
-  img.resource-icon {
-    height: 30px; 
-  }
+img.resource-icon {
+  height: 30px; 
 }
 
 div#filterTags {
