@@ -59,3 +59,23 @@ img.resource-icon {
 div#filterTags {
   max-width: 800px;
 }
+
+.social-icon-bg {
+  display: inline-block;
+  color: white;
+  display: inline-block;
+  line-height: 1;
+  padding: 4px;  
+  border-radius: 5px; 
+}
+.social-icon-bg-github {
+  background-color: black;
+}
+
+.social-icon-bg-gmail {
+  background-color: #db4a39;
+}
+
+.social-icon-bg-linkedin {
+  background-color: #0077b5;
+}

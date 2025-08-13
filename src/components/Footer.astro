@@ -1,20 +1,18 @@
 ---
-import linkedinIcon from "@/assets/linkedin.svg";
-import githubIcon from "@/assets/github.svg";
-import gmailIcon from "@/assets/gmail.svg";
+const socialIcons = [
+  {name: 'linkedin', url: 'https://www.linkedin.com/in/ruben-gonzalez-martin/', icon: 'bi bi-linkedin'},
+  {name: 'gmail', url: 'mailto:rubengm410@gmail.com', icon: 'bi bi-envelope-paper-heart-fill'},
+  {name: 'github', url: 'https://github.com/rugo-es', icon: 'bi bi-github'}
+]
 ---
 
 <footer class="py-3 border-top border-2">
   <div class="w-100 d-flex align-item-center justify-content-center gap-4">
-    <a href="https://www.linkedin.com/in/ruben-gonzalez-martin/" target="_blank">
-      <img width="48" height="48" src={linkedinIcon.src} alt="linkedin" />
-    </a>
-    <a href="mailto:rubengm410@gmail.com">
-      <img width="48" height="48" src={gmailIcon.src} alt="gmail" />
-    </a>
-    <a href="https://github.com/rugo-es" target="_blank">
-      <img width="48" height="48" src={githubIcon.src} alt="github" />
-    </a>
+    {
+      socialIcons.map(el => <a href={el.url} target="_blank">
+        <i class={`${el.icon} fs-1 social-icon-bg social-icon-bg-${el.name}`}></i>
+      </a>)
+    }
   </div>
   <h6 class="text-center mt-3 mb-4">rugo@2025</h6>
 </footer>

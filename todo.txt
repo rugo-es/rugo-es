@@ -10,8 +10,9 @@
 - [x] Bootstrap icons
 - [x] Aislar los scripts
 - [x] Fix: listar recursos (última fila)
-- [ ] Badges para los tags de resources
+- [x] Badges para los tags de resources
 - [ ] Iconos del footer de bootsrtap icons (test)
+- [ ] Revisar navegacion movil, que no quede el menu abierto
 - [ ] Custom bootstrap
 - [ ] Particles js
 - [ ] En los enlaces dentro de las entradas del blog (smooth scrolling)
