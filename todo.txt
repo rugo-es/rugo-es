@@ -9,7 +9,7 @@
 - [x] Favicon con los colores del gradient
 - [x] Bootstrap icons
 - [x] Aislar los scripts
-- [ ] Fix: listar recursos (última fila)
+- [x] Fix: listar recursos (última fila)
 - [ ] Badges para los tags de resources
 - [ ] Iconos del footer de bootsrtap icons (test)
 - [ ] Custom bootstrap
