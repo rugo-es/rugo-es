@@ -15,11 +15,12 @@
 - [x] Revisar navegacion movil, que no quede el menu abierto
 - [x] Custom bootstrap (Space theme)
 - [x] Probar Monospace (Github font)
-- [ ] Optimización de imagenes (todas, revisar tamaños)
+- [x] Optimización de imagenes (todas, revisar tamaños)
 - [ ] En los enlaces dentro de las entradas del blog (smooth scrolling)
 - [ ] Particles js
 - [ ] Mejorar diseño de las tarjetas (resources) (row, row-gap)
 - [ ] Mejorar diseño de las entradas del blog (https://css-tricks.com/)
 - [ ] gsap
+- [ ] Animación en el hover del menu principal?
 - [ ] Para comandos de linux revisa los resources que hay dos 3 sitios (manzdev, freecodecamp...)
 - [ ] Menu de hamburguesa: https://webflow.com/made-in-webflow/website/tricks-hamburgers
