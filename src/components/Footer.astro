@@ -6,13 +6,13 @@ const socialIcons = [
 ]
 ---
 
-<footer class="py-3 border-top border-2">
+<footer class="py-3 border-top border-3 border-primary">
   <div class="w-100 d-flex align-item-center justify-content-center gap-4">
     {
       socialIcons.map(el => <a href={el.url} target="_blank">
-        <i class={`${el.icon} fs-1 text-primary`}></i>
+        <i class={`${el.icon} fs-1`}></i>
       </a>)
     }
   </div>
-  <h6 class="text-center mt-3 mb-4">rugo@2025</h6>
+  <h6 class="text-primary text-center my-3">rugo@2025</h6>
 </footer>

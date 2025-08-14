@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Neon';
+  src: url('../fonts/MonaspaceNeon-Regular.woff2') format('woff2'),
+       url('../fonts/MonaspaceNeon-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neon';
+  src: url('../fonts/MonaspaceNeon-Italic.woff2') format('woff2'),
+       url('../fonts/MonaspaceNeon-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neon';
+  src: url('../fonts/MonaspaceNeon-Bold.woff2') format('woff2'),
+       url('../fonts/MonaspaceNeon-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neon';
+  src: url('../fonts/MonaspaceNeon-BoldItalic.woff2') format('woff2'),
+       url('../fonts/MonaspaceNeon-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}

@@ -11,7 +11,10 @@ section.hero {
     line-height: 270px;
     overflow: hidden;
     /* gradient */
-    background-image: linear-gradient(92deg, #4947ac 10%, #b34888 45%, #d86b39 75%, #cb8439);
+    /* background-image: linear-gradient(92deg, #b6d162 25%, #82d2cf 50%, #bc9afa 75%); */
+    /* background-image: linear-gradient(92deg, #4d5c2a 25%, #3b5e60 50%, #3b2772 75%); */
+    background-image: linear-gradient(92deg, #698515 25%, #28928f 50%, #663bb8 75%); 
+    /* background-image: linear-gradient(92deg, #4947ac 10%, #b34888 45%, #d86b39 75%, #cb8439); */
     -webkit-text-fill-color: #0000;
     -webkit-background-clip: text;
     @media (max-width: 576px) {

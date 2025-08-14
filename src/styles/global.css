@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 #navigation {
   background-color: transparent;
   transition: background-color 0.2s ease;
@@ -5,6 +9,12 @@
 
 #navigation.scrolled {
   background-color: var(--nav-bg-color);
+}
+
+@media (max-width: 991px) {
+  #navigationCollapse {
+    background-color: var(--nav-bg-color);
+  }
 }
 
 .theme-icon {
@@ -33,23 +43,17 @@ section.post {
   max-width: 1000px;
 }
 
-li.post-card {
+.post-card-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 320px;
+  height: 200px;
 
-  list-style: none;
-  border: 1px solid grey;
-
-  .post-card-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 320px;
-    height: 200px;
-
-    @media (max-width: 576px) {
-      min-width: 120px;
-    }
-
+  @media (max-width: 576px) {
+    min-width: 120px;
   }
+
 }
 
 img.resource-icon {
