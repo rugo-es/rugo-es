@@ -43,6 +43,8 @@ $spacer: 2rem;
   --bs-link-hover-color: #0033cc;
   --bs-link-hover-color-rgb: 0, 51, 204;
 
+  --bs-box-shadow: 0 .5rem 1rem rgba(26, 83, 255, .15);
+
   .btn-outline-primary {
     --bs-btn-color: var(--bs-primary);
     --bs-btn-border-color: var(--bs-primary);
@@ -76,6 +78,8 @@ $spacer: 2rem;
   --bs-link-color-rgb: var(--bs-primary-rgb);
   --bs-link-hover-color: #39e600;
   --bs-link-hover-color-rgb: 57, 230, 0;
+
+  --bs-box-shadow: 0 .5rem 1rem rgba(140, 255, 102, .15);
 
   .btn-outline-primary {
     --bs-btn-color: var(--bs-primary);
