@@ -209,6 +209,9 @@ docker inspect bridge
 ### Info & Stats
 
 ```sh
+# Muestra propiedades de la instalación de docker (contenedores, imagenes, arquitectura...)
+docker info
+
 # Mostrar logs de un contenedor
 docker logs $CONTAINER
 docker logs webserver
