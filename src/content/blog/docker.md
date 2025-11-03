@@ -31,6 +31,8 @@ tags: ["docker"]
 - <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Docker</a>  
 - <a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer">Docker Hub</a>
 - <a href="https://docs.docker.com/compose" target="_blank" rel="noopener noreferrer">Docker Compose</a>
+- <a href="https://docs.docker.com/reference/cli/docker/" target="_blank" rel="noopener noreferrer">Docker CLI</a>
+
 
 ## <span class="emoji">🛠️</span>Instalación
 
@@ -79,6 +81,7 @@ docker run --name webserver nginx:latest
 # Mapear puertos
 docker run -p $HOST_PORT:$CONTAINER_PORT $IMAGE:$TAG
 docker run -p 8080:80 nginx:latest
+
 # Mapear todos los puertos
 docker run -P $IMAGE:$TAG
 docker run -P nginx:latest
@@ -117,6 +120,14 @@ docker run --platform linux/arm64 nginx:latest
 # --> Puede comprometer la seguridad del host <--
 docker run --privileged=true $IMAGE:$TAG
 docker run --privileged=true nginx:latest
+
+# Limitar el uso de cpu del host
+docker run --cpus="0.5" $IMAGE:$TAG # Limita el uso de la cpu del host a medio core
+docker run --cpus="0.5" nginx:latest
+
+# Limitar el uso de memoria del host
+docker run --m="2G" $IMAGE:$TAG # Limita el uso de la cpu del host a medio core
+docker run --m="2G" nginx:latest
 ```
 
 ### Administrar contenedores
@@ -125,6 +136,8 @@ docker run --privileged=true nginx:latest
 # Listar contenedores
 docker ps # Solo contenedores en ejecución
 docker ps -a # Todos los contenedores
+docker ps -f "name=web" # Listar contenedores que contienen "web"
+docker ps --format "{{.ID}} => {{.Names}}" # Cambia el formato de salida (Ver opciones en la documentación de CLI)
 
 # Eliminar un contenedor
 docker rm $CONTAINER
@@ -215,9 +228,11 @@ docker info
 # Mostrar logs de un contenedor
 docker logs $CONTAINER
 docker logs webserver
+docker logs -f webserver # Ver logs en directo
 
 # Mostrar estadísticas (Uso de CPU, memoria, red, I/O...) de contenedores en ejecución
-docker stats
+docker stats # Salida interactiva (en tiempo real)
+docker stats --no-stream # Salida no interactiva
 
 # Mostrar procesos de un contenedor
 docker top $CONTAINER

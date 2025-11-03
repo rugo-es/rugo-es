@@ -147,6 +147,17 @@ ncdu /
 diff -u myFile1.txt myFile2.txt # Compara el contenido de dos archivos
 ```
 
+### stress
+
+Pruebas de estrés en sistemas Linux (carga de cpu, memoria...)
+
+https://www.ochobitshacenunbyte.com/2018/01/10/pruebas-de-estres-en-sistemas-gnu-linux/
+
+
+```bash
+stress -c 8 -m 2 -t 10s
+```
+
 ### awk 
 
 https://geekland.eu/uso-del-comando-awk-en-linux-y-unix-con-ejemplos/
