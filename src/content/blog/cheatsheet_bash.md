@@ -164,7 +164,7 @@ Genera contraseñas seguras
 
 ```bash
 # Instalación
-sudo apt install pwgen
+sudo apt update && sudo apt install pwgen -y
 
 # Uso
 pwgen # Genera contraseñas de 8 carácteres de longitud
@@ -174,6 +174,20 @@ pwgen -N 3 # Genera 3 contraseñas
 pwgen -y # Agrega caráteres especiales
 pwgen 32 -1 -y # Crea una sola contraseña de 32 carácteres y agregando especiales
 ```
+
+### htop
+
+Muestra en tiempo real los procesos que se están ejecutando en un sistema Linux, junto con el uso de CPU, memoria y carga del sistema.  
+Es una versión interactiva y mucho más visual de `top`, que permite filtrar, matar o renombrar procesos directamente desde la interfaz.
+
+```bash
+# Instalación
+sudo apt update && sudo apt install htop -y
+
+# Uso 
+htop
+htop --tree # Para ver el árbol de procesos
+``` 
 
 ### awk 
 
