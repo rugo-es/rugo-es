@@ -158,6 +158,23 @@ https://www.ochobitshacenunbyte.com/2018/01/10/pruebas-de-estres-en-sistemas-gnu
 stress -c 8 -m 2 -t 10s
 ```
 
+### pwgen
+
+Genera contraseñas seguras
+
+```bash
+# Instalación
+sudo apt install pwgen
+
+# Uso
+pwgen # Genera contraseñas de 8 carácteres de longitud
+pwgen 32 # Genera contraseñas de 32 carácteres de longitud
+pwgen 32 -1 # Genera una sola contraseña
+pwgen -N 3 # Genera 3 contraseñas
+pwgen -y # Agrega caráteres especiales
+pwgen 32 -1 -y # Crea una sola contraseña de 32 carácteres y agregando especiales
+```
+
 ### awk 
 
 https://geekland.eu/uso-del-comando-awk-en-linux-y-unix-con-ejemplos/
