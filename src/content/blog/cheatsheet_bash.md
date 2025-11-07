@@ -73,6 +73,7 @@ cat myFile.txt # Muestra el contenido completo del fichero
 tac myFile.txt # Muestra el contenido completo del fichero en orden inverso
 more myFile.txt # Muestra el contenido del fichero paginando (menos interactividad, carga más rápida)
 less myFile.txt # Muestra el contenido del fichero paginando (más interactividad, carga más lento en archivos pesados)
+# Con less puedes realizar búsquedas de texto indicando en el prompt '/' y escribiendo el texto a resaltar
 head -10 myFile.txt # Muestra las 10 primeras líneas de un fichero
 tail -10 myFile.txt # Muestra las 10 últimas lineas de un fichero
 tail -f /var/log/syslog # Muestra en tiempo real el contenido del fichero
@@ -128,9 +129,22 @@ find . -type f -exec stat -c "%y %n" {} + | cut -d' ' -f1 | sort | uniq -c # Con
 ### grep
 
 ```bash
+# Buscar texto en el contenido de un fichero
+grep $TEXT $FILE
+grep 'my_texto' /var/www/index.html
+
 grep -rl "myText" / 2>/dev/null # Busca en el contenido de los ficheros de todo el sistema la palabra "myText" y muestra solo el nombre del fichero
 grep -rl myText | xargs sed -i 's/myText/myNewText/g' # Buscar ficheros que contenga una palabra y sustituir la palabra
 ```
+
+### sed
+
+```bash
+# Modificar una cadena de texto (-e) dentro de un archivo y guardar el cambio (-i)
+sed -i -e 's/$TEXT_TARGET/$NEW_TEXT/' /var/www/index.html
+sed -i -e 's/SEARCH/FOUND/' -e 's/ANOTHER/FOUND/' my_file.txt
+```
+
 
 ### ncdu
 
@@ -151,7 +165,7 @@ diff -u myFile1.txt myFile2.txt # Compara el contenido de dos archivos
 
 Pruebas de estrés en sistemas Linux (carga de cpu, memoria...)
 
-https://www.ochobitshacenunbyte.com/2018/01/10/pruebas-de-estres-en-sistemas-gnu-linux/
+<a href="https://www.ochobitshacenunbyte.com/2018/01/10/pruebas-de-estres-en-sistemas-gnu-linux/" target="_blank">Comando stress</a>
 
 
 ```bash

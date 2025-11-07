@@ -1204,8 +1204,7 @@
       "tools"
     ],
     "favorite": false
-  }
-  ,
+  },
   {
     "name": "Simple icons",
     "image": "simpleicons.png",
@@ -1215,7 +1214,15 @@
       "icons"
     ],
     "favorite": false
-  }
-
-  
+  },
+  {
+    "name": "Emojisense",
+    "image": "vscode.png",
+    "url": "https://marketplace.visualstudio.com/items?itemName=bierner.emojisense",
+    "description": "Inserta emojis de manera sencilla en el editor.",
+    "tags": [
+      "vs-code"
+    ],
+    "favorite": false
+  }  
 ]

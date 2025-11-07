@@ -15,12 +15,14 @@ tags: ["docker"]
 - [Enlaces de interés](#enlaces-de-interés)
 - [Instalación](#instalación)
 - [Get started](#get-started)
-- [Comandos básicos](#comandos-básicos)
+- [Comandos](#comandos)
     - [Ejecutar contenedores](#ejecutar-contenedores)
     - [Administrar contenedores](#administrar-contenedores)
     - [Administrar imágenes](#administrar-imágenes)
     - [Redes](#redes)
     - [Info & Stats](#info--stats)
+- [Dockerfile](#dockerfile)
+
 
 ## <span class="emoji">🌅</span>Introducción
 
@@ -32,6 +34,9 @@ tags: ["docker"]
 - <a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer">Docker Hub</a>
 - <a href="https://docs.docker.com/compose" target="_blank" rel="noopener noreferrer">Docker Compose</a>
 - <a href="https://docs.docker.com/reference/cli/docker/" target="_blank" rel="noopener noreferrer">Docker CLI</a>
+- <a href="https://docs.docker.com/reference/dockerfile/" target="_blank" rel="noopener noreferrer">Dockerfile Reference</a>
+
+
 
 
 ## <span class="emoji">🛠️</span>Instalación
@@ -65,7 +70,7 @@ sudo usermod -aG docker $USER
 
 <a href="https://docs.docker.com/get-started/introduction/" target="_blank" rel="noopener noreferrer">Docker Get started</a>
 
-## <span class="emoji">📌</span>Comandos básicos
+## <span class="emoji">📌</span>Comandos
 
 ### Ejecutar contenedores
 
@@ -95,8 +100,20 @@ docker run --hostname $HOSTNAME $IMAGE:$TAG
 docker run --hostname srv nginx:latest
 
 # Asignar un volumen
-docker run -v $HOST_DIR:$TARGET_DIR $IMAGE:$TAG
+# Tipo bind (un directorio del host enlazado a un directorio del contenedor)
+docker run -v $HOST_DIR:$CONTAINER_DIR $IMAGE:$TAG
 docker run -v ./src:/var/www/html nginx:latest
+# Tipo volume (gestionado por docker, directorio dentro de la instalacion de docker)
+docker run -v $CONTAINER_DIR $IMAGE:$TAG
+docker run -v /var/www/html nginx:latest
+docker run -v $VOLUMEN_NAME:$CONTAINER_DIR $IMAGE:$TAG
+docker run -v web:/var/www/html nginx:latest
+docker run -v $VOLUMEN_NAME:$CONTAINER_DIR:$MODE $IMAGE:$TAG
+docker run -v web:/var/www/html:ro nginx:latest # ro -> read-only, para que desde ese contenedor no pueda editar el volumen
+# Indicar que quieres compartir todos los volumenes configurados en otro contenedor
+docker run --volumes-from $CONTAINER_FROM -d --name $CONTAINER_NAME $IMAGE:$TAG
+# ELiminar los volumenes en desuso
+docker volume prune
 
 # Modificar el puntos de entrada
 docker run -it --entrypoint $EXECUTABLE $IMAGE:$TAG
@@ -249,4 +266,55 @@ docker diff webserver
 # Mostrar los puertos mapeados de un contenedor
 docker port $CONTAINER
 docker port webserver
+
+# Muestra las capas que han generado una imagen (en orden inverso, comenzando desde la última)
+docker history $IMAGE:$TAG
+docker history traefik:v2.10
 ```
+
+## <span class="emoji">🐋</span>Dockerfile
+
+Para generar imagenes personalizadas usaremos los Dockerfile, a continuación la estructura básica del archivo, algunas recomendaciones y como generar la imagen.
+
+```dockerfile
+# Imagen base
+FROM debian:latest
+
+# Ejecución de comandos
+# Cada RUN genera una capa en la imagen, es mejor concatenar comandos en una sola directiva RUN, en lugar de poner varias
+RUN apt-get update && apt-get install -y apache2
+
+# Establecer el directorio de trabajo
+WORKDIR /var/www/html
+
+# Copiar ficheros del directorio actual al contenedor
+# Como hemos establecido el WORKDIR, para copiar los ficheros a esa ruta basta con indicar "."
+COPY index.html .
+
+# Agregar variables de entorno
+ENV MY_VAR="value" \
+    ANOTHER_VAR="Hello world"
+# Con esta linea veremos que cuando ejecutamos el contenedor nos muestra el valor
+RUN echo 'echo $ANOTHER_VAR, MY_VAR = $MY_VAR' >> /root/.bashrc
+
+# Agrega argumentos, para tener en cuenta a la hora de crear la imagen (docker build)
+ARG PACKAGE \
+    MY_TXT
+RUN apt-get update && apt-get install -y $PACKAGE
+ENV MY_ENV_VAR=$MY_TXT
+# A la hora de crear la imagen, lo haremos de la siguiente manera
+# docker build -t my-custom-image:latest --build-arg PACKAGE=nano --build-arg MY_TXT="Hello world" .
+
+# Comando que ejecuta el contenedor a arrancar (Solo ejecuta el último CMD)
+CMD ["bash"]
+# Otro ejemplo
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+``` 
+
+Para generar la imagen, ejecutaremos el siguiente comando desde el directorio del Dockerfile
+
+```sh
+docker build -t $IMAGE:$TAG .
+docker build -t my-custom-image:latest .
+``` 
+
