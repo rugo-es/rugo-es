@@ -25,6 +25,7 @@ arch # Arquitectura de la máquina
 df -h # Uso del espacio en disco
 ps -A # Procesos en ejecución
 history # Historial de comandos ejecutados
+Ctrl + r # Buscar directamente en el historial
 hostnamectl # Información general (hostname, operation system, kernel...)
 uname -m # Arquitectura de la máquina
 uname -r # Versión del kernel

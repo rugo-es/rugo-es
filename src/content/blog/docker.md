@@ -22,6 +22,7 @@ tags: ["docker"]
     - [Redes](#redes)
     - [Info & Stats](#info--stats)
 - [Dockerfile](#dockerfile)
+- [docker-compose](#docker-compose)
 
 
 ## <span class="emoji">🌅</span>Introducción
@@ -191,6 +192,9 @@ docker commit webserver custom_image:my_version
 ### Administrar imágenes
 
 ```sh
+# Identificarme en el registry (Docker Hub)
+docker login 
+
 # Listar imagenes
 docker images 
 
@@ -232,8 +236,27 @@ docker load -i myimage.tar
 docker network ls
 
 # Inspeccionar una red, por defecto la red de docker es "bridge"
-docker inspect $NET_NAME
-docker inspect bridge
+docker network inspect $NET_NAME
+docker network inspect bridge
+
+# Crear una red virtual personalizada
+docker network create -d $NET_DRIVER $NET_NAME
+docker network create -d bridge my_net
+# Indicar el rango de IPs para esa red
+docker network create -d $NET_DRIVER --subnet=$SUBNET_IP_RANGE $NET_NAME
+docker network create -d bridge --subnet=192.168.1.0/24 my_net
+
+# Eliminar una red
+docker network rm $NET_NAME
+docker network rm my_net
+
+# Conectar un contenedor a una red
+docker network connect $NET_NAME $CONTAINER_NAME
+docker network connect my_net my_container
+
+# Desconectar un contenedor de una red
+docker network disconnect $NET_NAME $CONTAINER_NAME
+docker network disconnect my_net my_container
 ```
 
 ### Info & Stats
@@ -298,12 +321,15 @@ ENV MY_VAR="value" \
 RUN echo 'echo $ANOTHER_VAR, MY_VAR = $MY_VAR' >> /root/.bashrc
 
 # Agrega argumentos, para tener en cuenta a la hora de crear la imagen (docker build)
+# A la hora de crear la imagen, lo haremos de la siguiente manera
+# docker build -t my-custom-image:latest --build-arg PACKAGE=nano --build-arg MY_TXT="Hello world" .
 ARG PACKAGE \
     MY_TXT
 RUN apt-get update && apt-get install -y $PACKAGE
 ENV MY_ENV_VAR=$MY_TXT
-# A la hora de crear la imagen, lo haremos de la siguiente manera
-# docker build -t my-custom-image:latest --build-arg PACKAGE=nano --build-arg MY_TXT="Hello world" .
+
+# Exponer puertos, esta directiva solo indica que el contenedor usa este puerto, no lo mapea con el host
+EXPOSE 22
 
 # Comando que ejecuta el contenedor a arrancar (Solo ejecuta el último CMD)
 CMD ["bash"]
@@ -316,5 +342,42 @@ Para generar la imagen, ejecutaremos el siguiente comando desde el directorio de
 ```sh
 docker build -t $IMAGE:$TAG .
 docker build -t my-custom-image:latest .
+``` 
+
+
+## <span class="emoji">🐋</span>docker-compose
+
+- Cuando se crea una serie de contenedores con docker-compose, por defecto, también crea su propia red para los servicios incluidos en el `docker-compose.yaml`.
+
+- En las indentaciones, se usan 2 espacios en lugar de la propia tabulación.
+
+```yaml
+version: "3"
+
+services:
+  db:
+    image: mariadb:latest
+    environment:
+      MARIADB_ROOT_PASSWORD: miclave
+      MARIADB_DATABASE: wp
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: miclave
+      WORDPRESS_DB_NAME: wp
+``` 
+
+Ejecutar/Parar los servicios
+
+```sh
+# Crear y ejecutar los contenedores
+docker compose up -d
+# Para y elimina los contenedores y la red creadas
+docker compose down
 ``` 
 
