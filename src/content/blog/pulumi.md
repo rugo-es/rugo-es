@@ -30,6 +30,7 @@ tags: ["pulumi", "python", "gcp", "cloud", "iac"]
 - [Diferencias entre la configuración de un bucket (Pulumi vs GCP)](#diferencias-entre-la-configuración-de-un-bucket-pulumi-vs-gcp)
 - [Listado de imágenes de SO para seleccionar en VMs](#listado-de-imágenes-de-so-para-selecccionar-en-vms)
 - [Logging](#logging)
+- [Logging](#logging)
 
 ## <span class="emoji">🌅</span>Introducción
 
@@ -516,4 +517,23 @@ pulumi.info("message", resource)
 pulumi.debug("hidden by default")
 pulumi.warn("warning")
 pulumi.error("fatal error")
+```
+
+## <span class="emoji">📌</span>Administrar los stacks de un backend
+
+```sh
+# Visualizar los stacks que pertenecen al backend
+pulumi stack ls --all 
+
+# Para eliminar un stack del backend sin eliminar los recursos
+pulumi stack rm $ORGANIZATION/$PROJECT_NAME/$STACK_NAME [--force]
+pulumi stack rm organization/project_name/dev
+pulumi stack rm organization/project_name/stag 
+pulumi stack rm organization/project_name/prod
+
+# Renombrar un proyecto
+# 1 - Asegurate de que no hay cambios pendientes
+# 2 - Modifica Pulumi.yaml manualmente cambiando el nombre del proyecto
+# 3 - Renombrar los stack asociados al proyecto 
+pulumi stack rename $ORGANIZATION/$PRE_PROJECT_NAME/$STACK_NAME $ORGANIZATION/$NEW_PROJECT_NAME/$STACK_NAME
 ```

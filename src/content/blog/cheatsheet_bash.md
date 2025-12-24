@@ -216,6 +216,20 @@ gsutil ls -l gs://myBucket | sort -k2 -r | awk 'NR==2 {print $NF}' | awk -F/ '{p
 df | awk '/^\// {print}' # Muestra solo las lineas que empiezan por "/"
 ```
 
+### nano
+
+```bash
+# Para configurar el tamaño de las tabulaciones
+nano -ET2 # Tabulaciones de 2 espacios
+
+# Dejar el editor en segundo plano
+Ctrl + T 
+Ctrl + Z 
+# Volver a la edición
+fg 
+```
+
+
 ### sort
 
 ### iperf3 

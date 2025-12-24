@@ -1,0 +1,94 @@
+---
+title: 'k9s'
+description: 'Configuración y uso de k9s.'
+pubDate: 2025-10-27
+image:
+    url: '/blog/docker.png'
+    alt: 'Pulumi logo'
+    bgColor: '#fff'
+tags: ["kubernetes"]
+---
+
+## <span class="emoji">📋</span>Tabla de contenido
+
+- [Introducción](#introducción)
+- [Enlaces de interés](#enlaces-de-interés)
+- [Instalación](#instalación)
+- [Get started](#get-started)
+- [Comandos](#comandos)
+
+
+## <span class="emoji">🌅</span>Introducción
+
+K9s es una herramienta de línea de comandos (CLI) para gestionar y observar clústeres de Kubernetes de forma interactiva y en tiempo real.
+
+En términos prácticos, K9s actúa como una interfaz TUI (Text-based User Interface) sobre kubectl, diseñada para simplificar la operación diaria de Kubernetes.
+
+K9s se utiliza principalmente para:
+
+- Navegar recursos de Kubernetes (pods, services, deployments, nodes, etc.).
+- Inspeccionar logs y eventos en tiempo real.
+- Ejecutar comandos dentro de contenedores.
+- Ver el estado de salud del clúster.
+- Detectar rápidamente errores y problemas operativos.
+
+## <span class="emoji">🌍</span>Enlaces de interés
+
+- <a href="https://k9scli.io/" target="_blank" rel="noopener noreferrer">k9s official site</a>  
+- <a href="https://k9scli.io/topics/install/" target="_blank" rel="noopener noreferrer">Instalación</a>  
+
+## <span class="emoji">🛠️</span>Instalación
+
+<a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer">Guía oficial de instalación</a>
+
+### Instalación en Ubuntu
+
+```sh
+sudo apt update -y
+curl -sS https://webinstall.dev/k9s | bash
+export PATH=$PATH:$HOME/.local/bin
+```
+
+Comprobar la versión instalada:
+
+```sh
+k9s version
+```
+
+## <span class="emoji">🚀</span>Get started
+
+<a href="https://medium.com/@dangreenlee_/deep-dive-into-k9s-supercharge-your-kubernetes-workflow-629a6e1b7305" target="_blank" rel="noopener noreferrer">k9s Get started</a>
+
+## <span class="emoji">📌</span>Comandos
+
+```sh
+# Medidas de consumo
+# CPU - milicores (m)
+# 1000m = 1 CPU completo del nodo
+# 500m = 0.5 CPU
+# Memoria - Gibibytes GiB / Mebibytes (MiB) / Kibibytes (KiB)
+# 1024 Ki = 1 MiB
+
+# Iniciar k9s
+k9s
+
+# Seleccionar un namespace
+:ns
+
+# Pods
+# Para ordenar, mostrar la ayuda (?)
+:po 
+:pods
+
+# Nodos
+:no
+:nodes
+
+# Deployments
+:dp
+:deployments
+
+# Buscar recursos por nombre 
+/
+``` 
+

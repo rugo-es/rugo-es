@@ -154,6 +154,7 @@ docker run --m="2G" nginx:latest
 # Listar contenedores
 docker ps # Solo contenedores en ejecución
 docker ps -a # Todos los contenedores
+docker ps -s # Tamaño de los contenedores
 docker ps -f "name=web" # Listar contenedores que contienen "web"
 docker ps --format "{{.ID}} => {{.Names}}" # Cambia el formato de salida (Ver opciones en la documentación de CLI)
 
