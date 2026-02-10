@@ -3,7 +3,91 @@ import '@/styles/hero.css'
 ---
 
 <section class="d-flex flex-column align-items-center justify-content-center text-center hero">
-  <h1 class="mb-4 hero-title">rugo</h1>
+  <h1 id="scramble" class="mb-4 hero-title">rugo</h1>
   <h2 class="mb-3 hero">Tech Life</h2>
   <h4>💋 Keep It Simple, Sweety</h4>
 </section>
+
+<script>
+
+  import gsap from 'gsap';
+
+  // GSAP
+  const chars = "_.,acegmnopqrsuvwxyz";
+  const el = document.getElementById("scramble");
+  const finalText = "rugo";
+
+  function easeOutQuad(t: number) {
+    return t * (2 - t);
+  }
+
+  function scrambleEffect(el: HTMLElement, text: string, duration = 1) {
+    let startTime: number | null = null;
+
+    function step(timestamp: number) {
+      if (!startTime) startTime = timestamp;
+      const elapsed = (timestamp - startTime) / 1000;
+      const progress = Math.min(elapsed / duration, 1);
+
+      const eased = 1 - easeOutQuad(progress);
+
+      let output = "";
+      for (let i = 0; i < text.length; i++) {
+        if (Math.random() < eased) {
+          output += chars[Math.floor(Math.random() * chars.length)];
+        } else {
+          output += text[i];
+        }
+      }
+
+      el.textContent = output;
+
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = text;
+      }
+    }
+
+    requestAnimationFrame(step);
+  }
+
+  gsap.timeline({ repeat: 0 })
+    .call(() => scrambleEffect(el, finalText, 2))
+    .to({}, { duration: 2 });
+
+  /*
+  function scrambleEffect(text: string, duration = 1) {
+      let elapsed = 0;
+      const fps = 100;
+      const interval = 1000 / fps;
+      const totalSteps = duration * fps;
+
+      const scrambleInterval = setInterval(() => {
+          elapsed++;
+          let output = "";
+
+          for (let i = 0; i < text.length; i++) {
+              output += chars[Math.floor(Math.random() * chars.length)];
+          }
+          
+          if (el) {
+            el.textContent = output;
+          }
+
+          if (elapsed >= totalSteps) {
+              clearInterval(scrambleInterval);
+              if (el) {
+                el.textContent = text;
+              }
+          }
+      }, interval);
+  }
+
+  gsap.timeline({ repeat: 0, repeatDelay: 1 })
+    .call(() => scrambleEffect(finalText, 1.5))
+    .to({}, { duration: 2 });
+  
+  */
+
+</script>
