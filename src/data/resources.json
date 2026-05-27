@@ -1224,5 +1224,16 @@
       "vs-code"
     ],
     "favorite": false
-  }  
+  },
+  {
+    "name": "ipify",
+    "image": "ipify.png",
+    "url": "https://www.ipify.org/",
+    "description": "Servicio web gratuito que ofrece una API muy simple para obtener tu dirección IP pública.",
+    "tags": [
+      "network",
+      "tools"
+    ],
+    "favorite": false
+  }
 ]

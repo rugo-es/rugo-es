@@ -30,7 +30,8 @@ tags: ["pulumi", "python", "gcp", "cloud", "iac"]
 - [Diferencias entre la configuración de un bucket (Pulumi vs GCP)](#diferencias-entre-la-configuración-de-un-bucket-pulumi-vs-gcp)
 - [Listado de imágenes de SO para seleccionar en VMs](#listado-de-imágenes-de-so-para-selecccionar-en-vms)
 - [Logging](#logging)
-- [Logging](#logging)
+- [Administrar los stacks de un backend](#administrar-los-stacks-de-un-backend)
+- [Listado de URNs que están listas para eliminar](#listado-de-urns-que-están-listas-para-eliminar)
 
 ## <span class="emoji">🌅</span>Introducción
 
@@ -269,7 +270,7 @@ pulumi destroy
 ## <span class="emoji">📌</span>Backend al que estoy conectado actualmente
 
 ```sh
-pulumi whoami --verbose
+pulumi whoami --v
 ```
 
 
@@ -536,4 +537,10 @@ pulumi stack rm organization/project_name/prod
 # 2 - Modifica Pulumi.yaml manualmente cambiando el nombre del proyecto
 # 3 - Renombrar los stack asociados al proyecto 
 pulumi stack rename $ORGANIZATION/$PRE_PROJECT_NAME/$STACK_NAME $ORGANIZATION/$NEW_PROJECT_NAME/$STACK_NAME
+```
+
+## <span class="emoji">📌</span>Listado de URNs que están listas para eliminar
+
+```sh
+pulumi preview --json | jq '.steps[] | select(.op == "delete") | .urn' > urns_to_delete.txt
 ```
