@@ -173,6 +173,65 @@ Pruebas de estrés en sistemas Linux (carga de cpu, memoria...)
 stress -c 8 -m 2 -t 10s
 ```
 
+### hey - https://github.com/rakyll/hey
+
+Herramienta para realizar peticiones a modo de test a servidores web
+
+```bash
+ENDPOINT="https://rugo.es"
+
+# hey command
+# -n - Requests number
+# -c - Threads (Concurrence)
+
+hey -n 10 -c 1 $ENDPOINT
+
+# Test with header
+# hey -n 10 -c 1 -H "X-Internal-Request: true" $ENDPOINT
+
+# Output example:
+Summary:
+  Total:        0.4787 secs
+  Slowest:      0.3380 secs
+  Fastest:      0.0138 secs
+  Average:      0.0479 secs
+  Requests/sec: 20.8900
+  
+
+Response time histogram:
+  0.014 [1]     |■■■■■
+  0.046 [8]     |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.079 [0]     |
+  0.111 [0]     |
+  0.144 [0]     |
+  0.176 [0]     |
+  0.208 [0]     |
+  0.241 [0]     |
+  0.273 [0]     |
+  0.306 [0]     |
+  0.338 [1]     |■■■■■
+
+
+Latency distribution:
+  10% in 0.0139 secs
+  25% in 0.0141 secs
+  50% in 0.0143 secs
+  75% in 0.0211 secs
+  90% in 0.3380 secs
+  0% in 0.0000 secs
+  0% in 0.0000 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:   0.0199 secs, 0.0138 secs, 0.3380 secs
+  DNS-lookup:   0.0166 secs, 0.0000 secs, 0.1659 secs
+  req write:    0.0000 secs, 0.0000 secs, 0.0001 secs
+  resp wait:    0.0276 secs, 0.0134 secs, 0.1384 secs
+  resp read:    0.0003 secs, 0.0002 secs, 0.0005 secs
+
+Status code distribution:
+  [200] 10 responses
+``` 
+
 ### pwgen
 
 Genera contraseñas seguras
