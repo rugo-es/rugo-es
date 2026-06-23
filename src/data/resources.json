@@ -1235,5 +1235,15 @@
       "tools"
     ],
     "favorite": false
+  },
+  {
+    "name": "yuzu",
+    "image": "yuzu.png",
+    "url": "https://yuzukeycaps.com/es",
+    "description": "Keycaps totalmente personalizados para teclados mecánicos.",
+    "tags": [
+      "shopping"
+    ],
+    "favorite": false
   }
 ]

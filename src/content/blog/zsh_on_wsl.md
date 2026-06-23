@@ -1,6 +1,6 @@
 ---
-title: 'Zsh en WSL (Windows Subsystem for Linux)'
-description: 'Instalación de Zsh y Oh My Zsh en WSL en un entorno con Ubuntu, además, implementación de plugins y personalización del prompt con el tema powerlevel10k.'
+title: 'Zsh y OhMyZsh'
+description: 'Configuración de Zsh y OhMyZsh en Ubuntu, además, implementación de plugins y personalización del prompt con el tema powerlevel10k.'
 pubDate: 2025-08-01
 image:
     url: '/blog/zsh_on_wsl.png'
@@ -14,41 +14,25 @@ tags: ["bash", "ubuntu", "shell", "servidor"]
 
 - [Introducción](#introducción)
 - [Enlaces de interés](#enlaces-de-interés)
-- [Instalación de Ubuntu en WSL](#instalación-de-ubuntu-en-wsl)
 - [Instalación de Zsh](#instalación-de-zsh)
 - [Instalación de plugins (zsh-autosuggestions)](#instalación-de-plugins-zsh-autosuggestions)
-- [Instalación de Oh My Zsh y el tema Powerlevel10k](#instalación-de-oh-my-zsh-y-el-tema-powerlevel10k)
+- [Instalación de OhMyZsh y el tema Powerlevel10k](#instalación-de-ohmyzsh-y-el-tema-powerlevel10k)
 - [Personalización del prompt](#personalización-del-prompt)
 - [Cambiar la terminal por defecto en vscode](#cambiar-la-terminal-por-defecto-en-vscode)
-- [Configuración de git](#configuración-de-git)
-- [Alias de Oh My Zsh](#alias-de-oh-my-zsh)
-- [Actualizar Zsh y Oh My Zsh](#actualizar-zsh-y-oh-my-zsh)
+- [Alias de OhMyZsh](#alias-de-ohmyzsh)
+- [Actualizar Zsh y OhMyZsh](#actualizar-zsh-y-ohmyzsh)
 - [Desinstalar Zsh](#desinstalar-zsh)
 
 ## <span class="emoji">🌅</span>Introducción
 
-Tenemos el siguiente escenario, trabajamos en un Windows 11 que tiene instalado WSL y queremos utilizar un shell de Linux en lugar de powershell. Vamos a instalar Ubuntu bajo el WSL y configuraremos el entorno para trabajar con Zsh, instalaremos Oh My Zsh y personalizaremos el prompt.
+Instalación y configuración de Zsh, OhMyZsh y personalización del prompt.
 
 ## <span class="emoji">🌍</span>Enlaces de interés
 
 - <a href="https://www.zsh.org/" target="_blank" rel="noopener noreferrer">Zsh</a>  
-- <a href="https://ohmyz.sh/" target="_blank" rel="noopener noreferrer">Oh My Zsh</a>  
+- <a href="https://ohmyz.sh/" target="_blank" rel="noopener noreferrer">OhMyZsh</a>  
 - <a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener noreferrer">Powerlevel10k</a>  
 - <a href="https://github.com/zsh-users/zsh-autosuggestions" target="_blank" rel="noopener noreferrer">zsh-autosuggestions</a>
-
-
-## <span class="emoji">📌</span>Instalación de Ubuntu en WSL
-
-- Abre Microsoft Store y busca "Ubuntu"
-- Pulsa en Obtener/Instalar una distro de Ubuntu (Ej: Ubuntu 24.04 LTS)
-- Abrir la terminal de la versión de Ubuntu instalada:
-  1. Desde el menú de inicio, busca "Ubuntu"
-  2. o desde powershell
-```sh
-wsl --list --verbose # (Para ver la distribución instalada)
-wsl -d Ubuntu-24.04
-```
-- Al abrir Ubuntu por primera vez, te pedirá que asignes un nombre de usuario y contraseña
 
 
 ## <span class="emoji">📌</span>Instalación de Zsh
@@ -85,7 +69,7 @@ Cierra el terminal y vuelve a abrir Ubuntu (Deberia abrir zsh por defecto)
 
 ## <span class="emoji">📌</span>Instalación de plugins (zsh-autosuggestions)
 
-El plugin zsh-autosuggestions es una extensión para el shell Zsh que sugiere comandos automáticamente mientras escribes, basándose en tu historial de comandos o en comandos previos. Cuando sugiere un comando basta con pulsar la tecla de dirección derecha (➡️) para realizar el autocompletado.
+El plugin zsh-autosuggestions es una extensión para el shell Zsh que sugiere comandos automáticamente mientras escribes, basándose en tu historial de comandos. Cuando sugiere un comando basta con pulsar la tecla de dirección derecha (➡️) para realizar el autocompletado.
 
 Instala el plugins
 
@@ -114,25 +98,25 @@ Aplica los cambios
 source ~/.zshrc
 ```
 
-## <span class="emoji">📌</span>Instalación de Oh My Zsh y el tema Powerlevel10k
+## <span class="emoji">📌</span>Instalación de OhMyZsh y el tema Powerlevel10k
 
-Oh My Zsh es una colección de configuraciones, temas y complementos para Zsh que mejora la experiencia en la línea de comandos, haciéndola más productiva, personalizable y atractiva visualmente.
+OhMyZsh es una colección de configuraciones, temas y complementos para Zsh que mejora la experiencia en la línea de comandos, haciéndola más productiva, personalizable y atractiva visualmente.
 
-Instala Oh My Zsh
+Instala OhMyZsh
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 Instala un tema (Powerlevel10k)
 
-<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/themes" target="_blank" rel="noopener noreferrer">Más temas para Oh My Zsh</a> 
+<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/themes" target="_blank" rel="noopener noreferrer">Más temas para OhMyZsh</a> 
 
 ```sh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
   ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-Edita el tema por defecto de Oh My Zsh, abre el fichero de configuración de Zsh
+Edita el tema por defecto de OhMyZsh, abre el fichero de configuración de Zsh
 
 ```sh
 nano ~/.zshrc
@@ -227,42 +211,9 @@ source ~/.p10k.zsh
 **`Ctrl + Shift + P`**  
 Terminal: Select Default Profile 
 
+## <span class="emoji">📌</span>Alias de OhMyZsh
 
-## <span class="emoji">📌</span>Configuración de git
-
-Dentro de el sistema de Ubuntu se montan particiones que enlazan directamente a los archivos de Windows, normalmente **`/mnt/c`** o **`/mnt/d`**, para poder disfrutar de nuestra configuración de git del equipo host dentro de Ubuntu hay que hacer algunas configuraciones extras.
-
-Copia las claves y configuración ssh a tu entorno de Ubuntu
-
-```sh
-ln -s /mnt/c/Users/$USUARIO/.gitconfig ~/.gitconfig
-cp /mnt/c/Users/$USUARIO/.ssh/* ~/.ssh/
-``` 
-
-Para no tener problemas con los saltos de líneas (^M):
-
-Cuando abrás un proyecto desde Ubuntu y compruebes con git los cambios en los ficheros, normalmente mostrará un cambio en los saltos de línea, ya que Windows (CRLF) y Ubuntu (LF) lo gestionan de manera diferente.
-
-Cambia la configuración en git desde Ubuntu
-
-```sh
-git config core.autocrlf false
-git config core.eol lf
-
-git add --renormalize .
-git status
-```
-
-También puede cambiar la gestión de los saltos de línea en vscode   
-
-- Abre un archivo donde aparece ^M (git diff) 
-- Busca en la barra inferior de vscode a la derecha: verás algo como CRLF o LF.
-- Haz clic en CRLF → selecciona LF.
-- Guarda el archivo (Ctrl + S).
-
-## <span class="emoji">📌</span>Alias de Oh My Zsh
-
-Oh My Zsh proporciona una lista amplia de alias, mayormente para trabajar con git o para trabajar con directorios, consulta la lista completa una vez instalado con `alias` y para consultar directamente que hace un alias `which $ALIAS`
+OhMyZsh proporciona una lista amplia de alias, mayormente para trabajar con git o para trabajar con directorios, consulta la lista completa una vez instalado con `alias` y para consultar directamente que hace un alias `which $ALIAS`
 
 Estos son algunos ejemplos:
 
@@ -298,12 +249,12 @@ grm='git rm'
 gst='git status'
 ``` 
 
-## <span class="emoji">📌</span>Actualizar Zsh y Oh My Zsh
+## <span class="emoji">📌</span>Actualizar Zsh y OhMyZsh
 
 ```sh
 # Actualizar Zsh
 sudo apt update && sudo apt upgrade zsh
-# Actualizar Oh My Zsh
+# Actualizar OhMyZsh
 omz update
 ``` 
 
