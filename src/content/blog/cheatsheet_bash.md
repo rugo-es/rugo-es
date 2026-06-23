@@ -175,8 +175,9 @@ stress -c 8 -m 2 -t 10s
 
 ### hey - https://github.com/rakyll/hey
 
-Herramienta para realizar peticiones a modo de test a servidores web
-
+Herramienta para realizar pruebas de estres y peticiones a servidores web.
+Alternativa Apache ab - https://httpd.apache.org/docs/2.4/programs/ab.html
+Tutorial de apache ab - https://nowitsanurag.medium.com/stress-testing-using-apache-bench-ab-98a3f1312246
 ```bash
 ENDPOINT="https://rugo.es"
 
