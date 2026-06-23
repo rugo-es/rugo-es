@@ -1245,5 +1245,37 @@
       "shopping"
     ],
     "favorite": false
+  },
+  {
+    "name": "asciinema",
+    "image": "asciinema.png",
+    "url": "https://docs.asciinema.org/",
+    "description": "Herramienta para grabar y compartir sesiones de terminal.",
+    "tags": [
+      "tools",
+      "terminal"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "nip.io & sslip.io",
+    "image": "nip.png",
+    "url": "https://sslip.io/",
+    "description": "Servicio DNS que, al ser consultado con un dominio que contiene una dirección IP, devuelve esa dirección IP.",
+    "tags": [
+      "network"
+    ],
+    "favorite": false
+  },
+  {
+    "name": "ASCII Art",
+    "image": "asciiart.png",
+    "url": "https://www.asciiart.eu/",
+    "description": "Herramientas y galeria de imagenes en ASCII.",
+    "tags": [
+      "terminal",
+      "tools"
+    ],
+    "favorite": false
   }
 ]
