@@ -3,7 +3,7 @@ title: 'Zsh y OhMyZsh'
 description: 'Configuración de Zsh y OhMyZsh en Ubuntu, además, implementación de plugins y personalización del prompt con el tema powerlevel10k.'
 pubDate: 2025-08-01
 image:
-    url: '/blog/zsh_on_wsl.png'
+    url: '/blog/zsh_ohmyzsh.png'
     alt: 'zsh and ohmyzsh logo.'
     bgColor: '#111211'
 tags: ["bash", "ubuntu", "shell", "servidor"]
