@@ -157,6 +157,17 @@ du -h / --exclude=/proc --exclude=/sys | sort -rh | head -n 10 # Mostrar los 10 
 ncdu /
 ```
 
+### du
+
+Mostrar el espacio que ocupan los directorios
+
+```bash
+du -sh /ruta/al/directorio # Ver el espacio que ocupa el directorio indicado
+du -h /ruta/al/directorio # Ver el espacio que ocupa los ficheros y directorios incluidos
+du -h -d 1 # Solo un nivel de profundidad
+du -hs * | sort -hr # Lista el tamaño de todos los elementos del directorio actual y los ordena de mayor a menor
+```
+
 
 ### diff
 ```bash
